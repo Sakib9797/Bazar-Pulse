@@ -1,0 +1,8 @@
+.venv
+.git
+**/__pycache__
+mlruns
+logs
+data/raw
+data/clean/observations.parquet
+tests

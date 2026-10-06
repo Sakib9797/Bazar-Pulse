@@ -1,0 +1,64 @@
+name_key,unit_key,product_id
+চাল সুগন্ধী (পোলাও),প্রতি কেজি,rice_aromatic_loose
+চাল সুগন্ধী (পোলাও),প্রতি কেজি প্যাঃ,rice_aromatic_packet
+চাল সরু (নাজির/মিনিকেট),প্রতি কেজি,rice_fine
+চাল (মাঝারী) পাইজাম/আটাশ,প্রতি কেজি,rice_medium
+চাল (মোটা) /স্বর্ণা/চায়না ইরি,প্রতি কেজি,rice_coarse
+আটা সাদা (খোলা),প্রতি কেজি,atta_loose
+আটা (প্যাকেট),প্রতি কেজি প্যাঃ,atta_packet
+ময়দা (খোলা),প্রতি কেজি,maida_loose
+ময়দা (প্যাকেট),প্রতি কেজি প্যাঃ,maida_packet
+সয়াবিন তেল (লুজ),প্রতি লিটার,soybean_oil_loose
+সয়াবিন তেল (বোতল),5 লিটার,soybean_oil_5l
+সয়াবিন তেল (বোতল),2 লিটার,soybean_oil_2l
+সয়াবিন তেল (বোতল),1 লিটার,soybean_oil_1l
+পাম অয়েল (লুজ),প্রতি লিটার,palm_oil_loose
+সুপার পাম অয়েল (লুজ),প্রতি লিটার,palm_oil_super_loose
+রাইস ব্রান তেল (বোতল),5 লিটার,rice_bran_oil_5l
+মশুর ডাল (বড় দানা),প্রতি কেজি,lentil_masur_large
+মশুর ডাল (মাঝারী দানা),প্রতি কেজি,lentil_masur_medium
+মশুর ডাল (ছোট দানা),প্রতি কেজি,lentil_masur_small
+মুগ ডাল (মানভেদে),প্রতি কেজি,lentil_mung
+এ্যাংকর ডাল,প্রতি কেজি,lentil_anchor
+ছোলা (মানভেদে),প্রতি কেজি,chickpea
+আলু (নতুন/পুরাতন),প্রতি কেজি,potato
+পিঁয়াজ (দেশী),প্রতি কেজি,onion_local
+পিঁয়াজ (আমদানি),প্রতি কেজি,onion_imported
+রসুন (দেশী),প্রতি কেজি,garlic_local
+রসুন (আমদানি),প্রতি কেজি,garlic_imported
+শুকনা মরিচ (দেশী),প্রতি কেজি,dried_chili_local
+শুকনা মরিচ (আমদানি),প্রতি কেজি,dried_chili_imported
+হলুদ (দেশী),প্রতি কেজি,turmeric_local
+হলুদ (আমদানি),প্রতি কেজি,turmeric_imported
+আদা (দেশী),প্রতি কেজি,ginger_local
+আদা (আমদানি),প্রতি কেজি,ginger_imported
+জিরা,প্রতি কেজি,cumin
+দারুচিনি,প্রতি কেজি,cinnamon
+লবঙ্গ,প্রতি কেজি,clove
+এলাচ (ছোট),প্রতি কেজি,cardamom
+ধনে,প্রতি কেজি,coriander_seed
+তেজপাতা,প্রতি কেজি,bay_leaf
+রুই,প্রতি কেজি,rui_fish
+ইলিশ,প্রতি কেজি,hilsa
+গরু,প্রতি কেজি,beef
+খাসী,প্রতি কেজি,mutton
+মুরগী (ব্রয়লার),প্রতি কেজি,chicken_broiler
+মুরগী (দেশী),প্রতি কেজি,chicken_local
+ডানো,1 কেজি,milk_powder_dano
+ডিপ্লোমা (নিউজিল্যান্ড),1 কেজি,milk_powder_diploma
+ফ্রেশ,1 কেজি,milk_powder_fresh
+মার্কস,1 কেজি,milk_powder_marks
+চিনি,প্রতি কেজি,sugar
+খেজুর (সাধারণ মানের),প্রতি কেজি,dates_fruit
+লবণ (প্যাঃ) আয়োডিনযুক্ত,প্রতি কেজি,salt_iodized
+লেবু,প্রতি হালি,lemon
+কাঁচামরিচ,প্রতি কেজি,green_chili
+বেগুন,প্রতি কেজি,eggplant
+শসা,প্রতি কেজি,cucumber
+ডিম (ফার্ম),প্রতি হালি,egg_farm
+লেখার কাগজ (সাদা),প্রতি দিস্তা,writing_paper
+"এম,এস রড (60 গ্রেড)",প্রতি মেঃটন,ms_rod_60
+"এম,এস রড (40 গ্রেড)",প্রতি মেঃটন,ms_rod_40
+পিঁয়াজ (দেশী) (নতুন/পুরাতন),প্রতি কেজি,onion_local
+পিঁয়াজ (দেশী,প্রতি কেজি,onion_local
+আলু,প্রতি কেজি,potato

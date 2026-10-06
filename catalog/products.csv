@@ -1,0 +1,61 @@
+product_id,name_en,name_bn,category,unit_en
+rice_aromatic_loose,Aromatic rice (polao),চাল সুগন্ধী (পোলাও),rice,kg
+rice_aromatic_packet,Aromatic rice (polao) packet,চাল সুগন্ধী (পোলাও) প্যাকেট,rice,kg packet
+rice_fine,Fine rice (Nazir/Miniket),চাল সরু (নাজির/মিনিকেট),rice,kg
+rice_medium,Medium rice (Paijam/BR-28),চাল মাঝারী (পাইজাম/আটাশ),rice,kg
+rice_coarse,Coarse rice (Swarna/China IRRI),চাল মোটা (স্বর্ণা/চায়না ইরি),rice,kg
+atta_loose,Atta (white loose),আটা সাদা (খোলা),flour,kg
+atta_packet,Atta (packet),আটা (প্যাকেট),flour,kg packet
+maida_loose,Maida (loose),ময়দা (খোলা),flour,kg
+maida_packet,Maida (packet),ময়দা (প্যাকেট),flour,kg packet
+soybean_oil_loose,Soybean oil (loose),সয়াবিন তেল (লুজ),edible_oil,litre
+soybean_oil_5l,Soybean oil (5 L bottle),সয়াবিন তেল (বোতল ৫ লিটার),edible_oil,5 L bottle
+soybean_oil_2l,Soybean oil (2 L bottle),সয়াবিন তেল (বোতল ২ লিটার),edible_oil,2 L bottle
+soybean_oil_1l,Soybean oil (1 L bottle),সয়াবিন তেল (বোতল ১ লিটার),edible_oil,1 L bottle
+palm_oil_loose,Palm oil (loose),পাম অয়েল (লুজ),edible_oil,litre
+palm_oil_super_loose,Super palm oil (loose),সুপার পাম অয়েল (লুজ),edible_oil,litre
+rice_bran_oil_5l,Rice bran oil (5 L bottle),রাইস ব্রান তেল (বোতল ৫ লিটার),edible_oil,5 L bottle
+lentil_masur_large,Red lentil (large grain),মশুর ডাল (বড় দানা),pulses,kg
+lentil_masur_medium,Red lentil (medium grain),মশুর ডাল (মাঝারী দানা),pulses,kg
+lentil_masur_small,Red lentil (small grain),মশুর ডাল (ছোট দানা),pulses,kg
+lentil_mung,Mung dal,মুগ ডাল,pulses,kg
+lentil_anchor,Anchor dal,এ্যাংকর ডাল,pulses,kg
+chickpea,Chickpea,ছোলা,pulses,kg
+potato,Potato,আলু,vegetables,kg
+onion_local,Onion (local),পিঁয়াজ (দেশী),spices,kg
+onion_imported,Onion (imported),পিঁয়াজ (আমদানি),spices,kg
+garlic_local,Garlic (local),রসুন (দেশী),spices,kg
+garlic_imported,Garlic (imported),রসুন (আমদানি),spices,kg
+dried_chili_local,Dried chili (local),শুকনা মরিচ (দেশী),spices,kg
+dried_chili_imported,Dried chili (imported),শুকনা মরিচ (আমদানি),spices,kg
+turmeric_local,Turmeric (local),হলুদ (দেশী),spices,kg
+turmeric_imported,Turmeric (imported),হলুদ (আমদানি),spices,kg
+ginger_local,Ginger (local),আদা (দেশী),spices,kg
+ginger_imported,Ginger (imported),আদা (আমদানি),spices,kg
+cumin,Cumin,জিরা,spices,kg
+cinnamon,Cinnamon,দারুচিনি,spices,kg
+clove,Clove,লবঙ্গ,spices,kg
+cardamom,Cardamom (small),এলাচ (ছোট),spices,kg
+coriander_seed,Coriander seed,ধনে,spices,kg
+bay_leaf,Bay leaf,তেজপাতা,spices,kg
+rui_fish,Rui fish,রুই,fish_meat,kg
+hilsa,Hilsa,ইলিশ,fish_meat,kg
+beef,Beef,গরু,fish_meat,kg
+mutton,Mutton (goat),খাসী,fish_meat,kg
+chicken_broiler,Chicken (broiler),মুরগী (ব্রয়লার),fish_meat,kg
+chicken_local,Chicken (local),মুরগী (দেশী),fish_meat,kg
+milk_powder_dano,Milk powder (Dano),গুড়া দুধ (ডানো),milk_powder,1 kg packet
+milk_powder_diploma,Milk powder (Diploma),গুড়া দুধ (ডিপ্লোমা),milk_powder,1 kg packet
+milk_powder_fresh,Milk powder (Fresh),গুড়া দুধ (ফ্রেশ),milk_powder,1 kg packet
+milk_powder_marks,Milk powder (Marks),গুড়া দুধ (মার্কস),milk_powder,1 kg packet
+sugar,Sugar,চিনি,groceries,kg
+dates_fruit,Dates (regular),খেজুর (সাধারণ মানের),groceries,kg
+salt_iodized,Salt (iodized packet),লবণ (প্যাকেট আয়োডিনযুক্ত),groceries,kg packet
+lemon,Lemon,লেবু,vegetables,hali (4 pcs)
+green_chili,Green chili,কাঁচামরিচ,vegetables,kg
+eggplant,Eggplant,বেগুন,vegetables,kg
+cucumber,Cucumber,শসা,vegetables,kg
+egg_farm,Eggs (farm),ডিম (ফার্ম),groceries,hali (4 eggs)
+writing_paper,Writing paper (white),লেখার কাগজ (সাদা),stationery,dista (24 sheets)
+ms_rod_60,MS rod (60 grade),এম.এস রড (৬০ গ্রেড),construction,metric ton
+ms_rod_40,MS rod (40 grade),এম.এস রড (৪০ গ্রেড),construction,metric ton

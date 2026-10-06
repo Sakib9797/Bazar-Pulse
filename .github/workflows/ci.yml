@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -r requirements.txt -r requirements-dev.txt -e .
+      - name: Lint
+        run: ruff check .
+      - name: Tests
+        run: pytest -q
+
+  api-image:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v5
+      - name: Build API image
+        run: docker build -f api/Dockerfile -t bazar-pulse-api .
+      - name: Smoke test
+        run: |
+          docker run -d --name api -p 8000:8000 bazar-pulse-api
+          for i in $(seq 1 30); do curl -sf localhost:8000/health && break; sleep 1; done
+          curl -sf localhost:8000/health | grep -q '"status":"ok"'
+          curl -sf "localhost:8000/movers?limit=3" > /dev/null

@@ -1,0 +1,41 @@
+name: Weekly retrain
+
+on:
+  schedule:
+    - cron: "0 13 * * 0"    # Sundays, after both daily runs
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-pipeline
+  cancel-in-progress: false
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: pip install -r requirements.txt -e .
+      - name: Challenger vs champion
+        env:
+          MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
+          MLFLOW_TRACKING_USERNAME: ${{ secrets.MLFLOW_TRACKING_USERNAME }}
+          MLFLOW_TRACKING_PASSWORD: ${{ secrets.MLFLOW_TRACKING_PASSWORD }}
+        run: python -m bazarpulse.train --weekly
+      - name: Commit the new model
+        run: |
+          git config user.name "Sakib9797"
+          git config user.email "166163857+Sakib9797@users.noreply.github.com"
+          git add models reports
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "Weekly retrain $(date -u +%F)"
+          git pull --rebase
+          git push
