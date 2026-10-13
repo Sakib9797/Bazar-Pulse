@@ -11,7 +11,8 @@ from hijridate import Hijri
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-GREEN, RED, AMBER, INK = "#006A4E", "#E5383B", "#E09F12", "#18302A"
+# Mid-tone colours that stay readable on both the light and the dark theme.
+GREEN, RED, AMBER, INK = "#1E8A63", "#E5383B", "#E09F12", "#7D8F88"
 BN_DIGITS = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
 
 T = {
@@ -132,6 +133,13 @@ T = {
         "উৎস: ট্রেডিং কর্পোরেশন অব বাংলাদেশ (টিসিবি)-এর ঢাকার দৈনিক খুচরা বাজারদর। পূর্বাভাস শুধু তথ্যের জন্য, সরকারি দাম নয়।",
     ),
     "no_data": ("No forecast has been produced yet.", "এখনো কোনো পূর্বাভাস তৈরি হয়নি।"),
+    "theme_help": (
+        "**Light or dark?** The dashboard follows your phone or computer setting. To switch by hand, open "
+        "the **⋮** menu (top right) → **Settings** → **Theme** and choose Light, Dark or System.",
+        "**লাইট না ডার্ক?** ড্যাশবোর্ডটি আপনার ফোন বা কম্পিউটারের সেটিং অনুযায়ী চলে। নিজে বদলাতে উপরে ডানে "
+        "**⋮** মেনু → **Settings** → **Theme** থেকে Light, Dark বা System বেছে নিন।",
+    ),
+    "theme_hint": ("🌙 Dark mode: ⋮ → Settings → Theme", "🌙 ডার্ক মোড: ⋮ → Settings → Theme"),
 }
 CATEGORY = {
     "rice": ("Rice", "চাল"),
@@ -194,9 +202,10 @@ CSS = """
 .bp-range {position: relative; height: 12px; border-radius: 999px; margin: 14px 0 6px;
   background: linear-gradient(90deg, #2E9E6B, #F5B700 60%, #E5383B);}
 .bp-range .mark {position: absolute; top: -5px; width: 4px; height: 22px; border-radius: 2px;
-  background: #18302A;}
+  background: #18302A; box-shadow: 0 0 0 2px rgba(255,255,255,.85);}
 .bp-scale {display: flex; justify-content: space-between; font-size: .85rem; opacity: .85;}
-div[data-testid="stMetric"] {background: rgba(0,106,78,.05); border-radius: 14px;}
+div[data-testid="stMetric"] {background: rgba(30,138,99,.07); border-radius: 14px;}
+.bp-card {background: rgba(30,138,99,.07); border-color: rgba(30,138,99,.28);}
 .stTabs [data-baseweb="tab-list"] {gap: 6px;}
 .stTabs [data-baseweb="tab"] {padding: 8px 14px; border-radius: 10px 10px 0 0;}
 </style>
@@ -245,7 +254,7 @@ def islamic_events(first_year=1442, last_year=1450):
 
 d = load()
 latest = d["latest"]
-_, lang_col = st.columns([5, 1.2])
+_, theme_col, lang_col = st.columns([4.6, 0.5, 1.2], vertical_alignment="center")
 lang_choice = lang_col.segmented_control(
     "Language", ["English", "বাংলা"], default="English", key="lang", label_visibility="collapsed"
 )
@@ -282,6 +291,9 @@ def unit(p):
 def cat_label(c):
     return CATEGORY.get(c, (c, c))[1 if BN else 0]
 
+
+with theme_col.popover("🌙", help="Light / dark theme"):
+    st.markdown(t("theme_help"))
 
 if not latest:
     st.error(t("no_data"))
@@ -845,4 +857,4 @@ with tabs[4]:
         st.dataframe(dec[cols], hide_index=True, width="stretch")
 
 st.divider()
-st.caption(f"{t('disclaimer')} · [GitHub](https://github.com/Sakib9797/Bazar-Pulse)")
+st.caption(f"{t('disclaimer')} · {t('theme_hint')} · [GitHub](https://github.com/Sakib9797/Bazar-Pulse)")

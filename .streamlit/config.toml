@@ -1,10 +1,19 @@
+# Light and dark themes: the app follows the visitor's system setting, and anyone can
+# switch in the ⋮ menu → Settings.
 [theme]
-base = "light"
+font = "sans serif"
+
+[theme.light]
 primaryColor = "#006A4E"
 backgroundColor = "#F7FAF8"
 secondaryBackgroundColor = "#E9F2EE"
 textColor = "#18302A"
-font = "sans serif"
+
+[theme.dark]
+primaryColor = "#2FBF8A"
+backgroundColor = "#0D1714"
+secondaryBackgroundColor = "#17261F"
+textColor = "#E3EEE9"
 
 [browser]
 gatherUsageStats = false

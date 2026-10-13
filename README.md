@@ -127,7 +127,7 @@ Format drift handled by the parser (covered by tests on real files):
 
 ## Dashboard
 
-Bilingual (English / বাংলা), works on phones. Run it with `streamlit run dashboard/streamlit_app.py`.
+Bilingual (English / বাংলা), light and dark themes (follows the system setting; switch in ⋮ → Settings), works on phones. Run it with `streamlit run dashboard/streamlit_app.py`.
 
 | Tab | What you can do |
 |---|---|
