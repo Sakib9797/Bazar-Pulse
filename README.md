@@ -125,6 +125,18 @@ Format drift handled by the parser (covered by tests on real files):
 - products renamed over time (e.g. "পাইজাম/লতা" → "পাইজাম/আটাশ"), seasonal labels
   ("আদা (দেশী) (নতুন)") and TCB typos, verified never to clash on the same day before merging
 
+## Dashboard
+
+Bilingual (English / বাংলা), works on phones. Run it with `streamlit run dashboard/streamlit_app.py`.
+
+| Tab | What you can do |
+|---|---|
+| 🧭 Outlook | Pick 1-4 weeks and categories; see every product's likely range; **click a product** for a detail card with its reliability badge |
+| 🔎 Product | Zoomable price history with Ramadan / Eid markers, the forecast range, and "same time last year" |
+| 🧺 My basket | Edit a shopping list and see today's cost vs the likely, best and worst case in 1-4 weeks, and which items add the most risk |
+| 📊 Trends | Compare up to 8 products over 1-5 years, as prices or as an index; see typical inflation per category |
+| 🩺 Model health | Live range coverage vs the 80% target, backtest results and every model decision |
+
 ## API
 
 | Endpoint | Returns |
