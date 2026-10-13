@@ -1,0 +1,8 @@
+{
+  "champion_version": 1,
+  "model": "qlgbm_smooth",
+  "backtest_pinball": 3.3336,
+  "backtest_coverage": 0.813,
+  "live_rows": 59,
+  "status": "warming_up"
+}

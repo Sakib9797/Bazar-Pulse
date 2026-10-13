@@ -1,0 +1,64 @@
+{
+  "champion": {
+    "version": 1,
+    "config": {
+      "name": "qlgbm_smooth",
+      "learning_rate": 0.05,
+      "num_leaves": 15,
+      "min_data_in_leaf": 500,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.8,
+      "bagging_freq": 1,
+      "num_boost_round": 300,
+      "seed": 7
+    },
+    "file": "models/model_v0001.json.gz",
+    "trained_until": "2026-10-06",
+    "trained_at": "2026-10-06T16:47:15+00:00",
+    "backtest": {
+      "pinball_model": 3.333615966200905,
+      "pinball_climatology": 3.441403850598662,
+      "coverage_model": 0.8134672179562906,
+      "coverage_climatology": 0.8196987595983461,
+      "width_model": 8.72577665498481,
+      "width_climatology": 10.561596687605675,
+      "mape_mid": 2.7843616066740595,
+      "mape_naive": 2.776360264320441,
+      "rows": 33860,
+      "skill": 0.03132090538545951,
+      "products": 59,
+      "products_beating_climatology": 28,
+      "skill_h7": 0.05214987410078853,
+      "coverage_h7": 0.8543009557679484,
+      "skill_h14": 0.028082092475054,
+      "coverage_h14": 0.8146262439250174,
+      "skill_h21": 0.02320970720043436,
+      "coverage_h21": 0.7950048262548263,
+      "skill_h28": 0.0300338609970634,
+      "coverage_h28": 0.7851739788199698
+    },
+    "conformal": {
+      "7": 7.676741576426462e-05,
+      "14": 0.0011058871722760678,
+      "21": 0.002342934676561403,
+      "28": 0.009119688800295778
+    }
+  },
+  "previous": null,
+  "decisions": [
+    {
+      "kind": "initial",
+      "promoted": true,
+      "beats_climatology": true,
+      "scores": {
+        "qlgbm": 3.3554,
+        "qlgbm_deep": 3.3958,
+        "qlgbm_smooth": 3.3336
+      },
+      "climatology": 3.4414,
+      "reason": "best of 3 candidates on a 26-week backtest",
+      "version": 1,
+      "at": "2026-10-06T16:47:15+00:00"
+    }
+  ]
+}

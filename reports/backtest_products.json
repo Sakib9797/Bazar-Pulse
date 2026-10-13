@@ -1,0 +1,238 @@
+{
+ "green_chili": {
+  "coverage": 0.401,
+  "model_better": false
+ },
+ "cucumber": {
+  "coverage": 0.32,
+  "model_better": false
+ },
+ "eggplant": {
+  "coverage": 0.641,
+  "model_better": true
+ },
+ "lemon": {
+  "coverage": 0.587,
+  "model_better": true
+ },
+ "onion_local": {
+  "coverage": 0.793,
+  "model_better": true
+ },
+ "ginger_imported": {
+  "coverage": 0.561,
+  "model_better": false
+ },
+ "garlic_local": {
+  "coverage": 0.68,
+  "model_better": false
+ },
+ "garlic_imported": {
+  "coverage": 0.663,
+  "model_better": false
+ },
+ "potato": {
+  "coverage": 0.849,
+  "model_better": true
+ },
+ "egg_farm": {
+  "coverage": 0.752,
+  "model_better": true
+ },
+ "ginger_local": {
+  "coverage": 0.901,
+  "model_better": true
+ },
+ "bay_leaf": {
+  "coverage": 0.793,
+  "model_better": false
+ },
+ "maida_packet": {
+  "coverage": 0.585,
+  "model_better": true
+ },
+ "atta_loose": {
+  "coverage": 0.595,
+  "model_better": true
+ },
+ "milk_powder_dano": {
+  "coverage": 0.609,
+  "model_better": true
+ },
+ "chicken_broiler": {
+  "coverage": 0.903,
+  "model_better": false
+ },
+ "chickpea": {
+  "coverage": 0.786,
+  "model_better": true
+ },
+ "maida_loose": {
+  "coverage": 0.573,
+  "model_better": false
+ },
+ "rice_coarse": {
+  "coverage": 0.711,
+  "model_better": true
+ },
+ "atta_packet": {
+  "coverage": 0.719,
+  "model_better": false
+ },
+ "mutton": {
+  "coverage": 0.862,
+  "model_better": true
+ },
+ "coriander_seed": {
+  "coverage": 0.867,
+  "model_better": true
+ },
+ "hilsa": {
+  "coverage": 1.0,
+  "model_better": true
+ },
+ "rice_aromatic_loose": {
+  "coverage": 0.831,
+  "model_better": true
+ },
+ "milk_powder_marks": {
+  "coverage": 0.77,
+  "model_better": true
+ },
+ "milk_powder_fresh": {
+  "coverage": 0.714,
+  "model_better": true
+ },
+ "dried_chili_local": {
+  "coverage": 0.947,
+  "model_better": false
+ },
+ "rice_medium": {
+  "coverage": 0.706,
+  "model_better": true
+ },
+ "sugar": {
+  "coverage": 0.85,
+  "model_better": false
+ },
+ "turmeric_imported": {
+  "coverage": 0.922,
+  "model_better": true
+ },
+ "chicken_local": {
+  "coverage": 0.993,
+  "model_better": true
+ },
+ "dates_fruit": {
+  "coverage": 0.951,
+  "model_better": true
+ },
+ "cinnamon": {
+  "coverage": 0.857,
+  "model_better": true
+ },
+ "ms_rod_40": {
+  "coverage": 0.874,
+  "model_better": false
+ },
+ "dried_chili_imported": {
+  "coverage": 0.898,
+  "model_better": false
+ },
+ "lentil_mung": {
+  "coverage": 0.871,
+  "model_better": true
+ },
+ "lentil_anchor": {
+  "coverage": 0.912,
+  "model_better": true
+ },
+ "rice_aromatic_packet": {
+  "coverage": 0.971,
+  "model_better": true
+ },
+ "ms_rod_60": {
+  "coverage": 0.821,
+  "model_better": true
+ },
+ "cumin": {
+  "coverage": 0.884,
+  "model_better": false
+ },
+ "lentil_masur_small": {
+  "coverage": 0.912,
+  "model_better": false
+ },
+ "lentil_masur_large": {
+  "coverage": 0.779,
+  "model_better": false
+ },
+ "milk_powder_diploma": {
+  "coverage": 0.874,
+  "model_better": false
+ },
+ "beef": {
+  "coverage": 0.857,
+  "model_better": true
+ },
+ "soybean_oil_loose": {
+  "coverage": 0.949,
+  "model_better": false
+ },
+ "turmeric_local": {
+  "coverage": 0.966,
+  "model_better": false
+ },
+ "lentil_masur_medium": {
+  "coverage": 0.9,
+  "model_better": true
+ },
+ "palm_oil_loose": {
+  "coverage": 0.961,
+  "model_better": false
+ },
+ "rice_fine": {
+  "coverage": 0.9,
+  "model_better": false
+ },
+ "palm_oil_super_loose": {
+  "coverage": 0.878,
+  "model_better": false
+ },
+ "soybean_oil_5l": {
+  "coverage": 0.93,
+  "model_better": false
+ },
+ "rice_bran_oil_5l": {
+  "coverage": 0.774,
+  "model_better": false
+ },
+ "soybean_oil_1l": {
+  "coverage": 0.854,
+  "model_better": false
+ },
+ "soybean_oil_2l": {
+  "coverage": 0.854,
+  "model_better": false
+ },
+ "salt_iodized": {
+  "coverage": 0.844,
+  "model_better": false
+ },
+ "clove": {
+  "coverage": 0.997,
+  "model_better": false
+ },
+ "cardamom": {
+  "coverage": 1.0,
+  "model_better": false
+ },
+ "rui_fish": {
+  "coverage": 0.968,
+  "model_better": false
+ },
+ "writing_paper": {
+  "coverage": 1.0,
+  "model_better": false
+ }
+}

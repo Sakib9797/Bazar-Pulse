@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-10-13",
+  "psi": {
+    "construction": 0.664,
+    "edible_oil": 0.301,
+    "fish_meat": 0.428,
+    "flour": 0.954,
+    "groceries": 0.217,
+    "milk_powder": 0.372,
+    "pulses": 0.286,
+    "rice": 0.459,
+    "spices": 0.142,
+    "vegetables": 0.459
+  },
+  "thresholds": {
+    "construction": 2.123,
+    "edible_oil": 0.794,
+    "fish_meat": 1.007,
+    "flour": 1.222,
+    "groceries": 1.354,
+    "milk_powder": 1.293,
+    "pulses": 0.981,
+    "rice": 1.153,
+    "spices": 0.502,
+    "vegetables": 1.32
+  },
+  "drifted": [],
+  "method": "PSI of 7-day changes, last 28 days vs previous year; threshold = 95% quantile of the category's own PSI over the last two years"
+}

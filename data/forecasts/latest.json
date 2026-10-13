@@ -1,0 +1,2783 @@
+{
+ "origin_date": "2026-10-13",
+ "model_version": 1,
+ "model": "qlgbm_smooth",
+ "coverage_target": 0.8,
+ "generated_at": "2026-10-13T17:28:57+00:00",
+ "source": "Trading Corporation of Bangladesh (TCB) daily retail prices, Dhaka",
+ "products": [
+  {
+   "product_id": "atta_loose",
+   "name_en": "Atta (white loose)",
+   "name_bn": "আটা সাদা (খোলা)",
+   "category": "flour",
+   "unit": "kg",
+   "last_price": 50.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 49.19,
+     "mid": 50.0,
+     "high": 50.68,
+     "change_pct": 0.0,
+     "upside_pct": 1.36
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 48.73,
+     "mid": 50.0,
+     "high": 51.19,
+     "change_pct": 0.0,
+     "upside_pct": 2.38
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 48.35,
+     "mid": 50.0,
+     "high": 51.66,
+     "change_pct": 0.0,
+     "upside_pct": 3.32
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 47.91,
+     "mid": 50.0,
+     "high": 52.28,
+     "change_pct": 0.0,
+     "upside_pct": 4.56
+    }
+   ]
+  },
+  {
+   "product_id": "atta_packet",
+   "name_en": "Atta (packet)",
+   "name_bn": "আটা (প্যাকেট)",
+   "category": "flour",
+   "unit": "kg packet",
+   "last_price": 67.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 65.76,
+     "mid": 67.5,
+     "high": 68.63,
+     "change_pct": 0.0,
+     "upside_pct": 1.67
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 65.28,
+     "mid": 67.5,
+     "high": 69.12,
+     "change_pct": 0.0,
+     "upside_pct": 2.4
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 65.02,
+     "mid": 67.5,
+     "high": 69.34,
+     "change_pct": 0.0,
+     "upside_pct": 2.73
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 64.5,
+     "mid": 67.5,
+     "high": 70.04,
+     "change_pct": 0.0,
+     "upside_pct": 3.76
+    }
+   ]
+  },
+  {
+   "product_id": "bay_leaf",
+   "name_en": "Bay leaf",
+   "name_bn": "তেজপাতা",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 265.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 238.13,
+     "mid": 265.0,
+     "high": 272.09,
+     "change_pct": 0.0,
+     "upside_pct": 2.68
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 235.74,
+     "mid": 265.0,
+     "high": 276.81,
+     "change_pct": 0.0,
+     "upside_pct": 4.46
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 232.95,
+     "mid": 265.0,
+     "high": 279.38,
+     "change_pct": 0.0,
+     "upside_pct": 5.43
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 230.29,
+     "mid": 265.0,
+     "high": 282.33,
+     "change_pct": 0.0,
+     "upside_pct": 6.54
+    }
+   ]
+  },
+  {
+   "product_id": "beef",
+   "name_en": "Beef",
+   "name_bn": "গরু",
+   "category": "fish_meat",
+   "unit": "kg",
+   "last_price": 825.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 820.01,
+     "mid": 825.0,
+     "high": 826.61,
+     "change_pct": 0.0,
+     "upside_pct": 0.2
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 818.05,
+     "mid": 825.0,
+     "high": 829.06,
+     "change_pct": 0.0,
+     "upside_pct": 0.49
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 815.05,
+     "mid": 825.0,
+     "high": 831.73,
+     "change_pct": 0.0,
+     "upside_pct": 0.82
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 808.97,
+     "mid": 825.0,
+     "high": 840.72,
+     "change_pct": 0.0,
+     "upside_pct": 1.91
+    }
+   ]
+  },
+  {
+   "product_id": "cardamom",
+   "name_en": "Cardamom (small)",
+   "name_bn": "এলাচ (ছোট)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 5100.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 5065.08,
+     "mid": 5100.0,
+     "high": 5209.84,
+     "change_pct": 0.0,
+     "upside_pct": 2.15
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 5015.58,
+     "mid": 5100.0,
+     "high": 5276.09,
+     "change_pct": 0.0,
+     "upside_pct": 3.45
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 4973.1,
+     "mid": 5100.0,
+     "high": 5329.96,
+     "change_pct": 0.0,
+     "upside_pct": 4.51
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 4936.35,
+     "mid": 5100.0,
+     "high": 5403.6,
+     "change_pct": 0.0,
+     "upside_pct": 5.95
+    }
+   ]
+  },
+  {
+   "product_id": "chicken_broiler",
+   "name_en": "Chicken (broiler)",
+   "name_bn": "মুরগী (ব্রয়লার)",
+   "category": "fish_meat",
+   "unit": "kg",
+   "last_price": 190.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 181.13,
+     "mid": 190.0,
+     "high": 200.5,
+     "change_pct": 0.0,
+     "upside_pct": 5.53
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 178.27,
+     "mid": 190.52,
+     "high": 203.48,
+     "change_pct": 0.27,
+     "upside_pct": 7.09
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 174.58,
+     "mid": 190.0,
+     "high": 207.11,
+     "change_pct": 0.0,
+     "upside_pct": 9.01
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 172.58,
+     "mid": 190.0,
+     "high": 210.86,
+     "change_pct": 0.0,
+     "upside_pct": 10.98
+    }
+   ]
+  },
+  {
+   "product_id": "chicken_local",
+   "name_en": "Chicken (local)",
+   "name_bn": "মুরগী (দেশী)",
+   "category": "fish_meat",
+   "unit": "kg",
+   "last_price": 675.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 664.63,
+     "mid": 675.0,
+     "high": 678.2,
+     "change_pct": 0.0,
+     "upside_pct": 0.47
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 653.85,
+     "mid": 675.0,
+     "high": 680.28,
+     "change_pct": 0.0,
+     "upside_pct": 0.78
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 649.11,
+     "mid": 675.0,
+     "high": 686.3,
+     "change_pct": 0.0,
+     "upside_pct": 1.67
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 643.96,
+     "mid": 675.0,
+     "high": 692.43,
+     "change_pct": 0.0,
+     "upside_pct": 2.58
+    }
+   ]
+  },
+  {
+   "product_id": "chickpea",
+   "name_en": "Chickpea",
+   "name_bn": "ছোলা",
+   "category": "pulses",
+   "unit": "kg",
+   "last_price": 105.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 103.57,
+     "mid": 105.0,
+     "high": 106.91,
+     "change_pct": 0.0,
+     "upside_pct": 1.82
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 102.48,
+     "mid": 105.0,
+     "high": 107.71,
+     "change_pct": 0.0,
+     "upside_pct": 2.58
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 101.09,
+     "mid": 105.0,
+     "high": 108.74,
+     "change_pct": 0.0,
+     "upside_pct": 3.56
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 100.29,
+     "mid": 105.0,
+     "high": 109.69,
+     "change_pct": 0.0,
+     "upside_pct": 4.47
+    }
+   ]
+  },
+  {
+   "product_id": "cinnamon",
+   "name_en": "Cinnamon",
+   "name_bn": "দারুচিনি",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 540.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 533.3,
+     "mid": 540.0,
+     "high": 546.08,
+     "change_pct": 0.0,
+     "upside_pct": 1.13
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 529.03,
+     "mid": 540.0,
+     "high": 549.75,
+     "change_pct": 0.0,
+     "upside_pct": 1.81
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 524.06,
+     "mid": 540.0,
+     "high": 552.85,
+     "change_pct": 0.0,
+     "upside_pct": 2.38
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 520.08,
+     "mid": 540.0,
+     "high": 558.52,
+     "change_pct": 0.0,
+     "upside_pct": 3.43
+    }
+   ]
+  },
+  {
+   "product_id": "clove",
+   "name_en": "Clove",
+   "name_bn": "লবঙ্গ",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 1525.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 1517.76,
+     "mid": 1525.0,
+     "high": 1533.42,
+     "change_pct": 0.0,
+     "upside_pct": 0.55
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 1503.08,
+     "mid": 1525.0,
+     "high": 1539.06,
+     "change_pct": 0.0,
+     "upside_pct": 0.92
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 1490.73,
+     "mid": 1525.0,
+     "high": 1548.54,
+     "change_pct": 0.0,
+     "upside_pct": 1.54
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 1479.95,
+     "mid": 1525.0,
+     "high": 1563.39,
+     "change_pct": 0.0,
+     "upside_pct": 2.52
+    }
+   ]
+  },
+  {
+   "product_id": "coriander_seed",
+   "name_en": "Coriander seed",
+   "name_bn": "ধনে",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 225.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 222.04,
+     "mid": 225.0,
+     "high": 229.99,
+     "change_pct": 0.0,
+     "upside_pct": 2.22
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 219.31,
+     "mid": 225.0,
+     "high": 233.19,
+     "change_pct": 0.0,
+     "upside_pct": 3.64
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 218.22,
+     "mid": 225.0,
+     "high": 235.77,
+     "change_pct": 0.0,
+     "upside_pct": 4.79
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 215.63,
+     "mid": 225.0,
+     "high": 238.38,
+     "change_pct": 0.0,
+     "upside_pct": 5.95
+    }
+   ]
+  },
+  {
+   "product_id": "cucumber",
+   "name_en": "Cucumber",
+   "name_bn": "শসা",
+   "category": "vegetables",
+   "unit": "kg",
+   "last_price": 70.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 64.93,
+     "mid": 70.09,
+     "high": 84.48,
+     "change_pct": 0.13,
+     "upside_pct": 20.69
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 64.21,
+     "mid": 70.16,
+     "high": 87.49,
+     "change_pct": 0.23,
+     "upside_pct": 24.99
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 63.06,
+     "mid": 70.17,
+     "high": 89.43,
+     "change_pct": 0.24,
+     "upside_pct": 27.76
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 62.4,
+     "mid": 70.17,
+     "high": 90.41,
+     "change_pct": 0.24,
+     "upside_pct": 29.16
+    }
+   ]
+  },
+  {
+   "product_id": "cumin",
+   "name_en": "Cumin",
+   "name_bn": "জিরা",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 600.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 594.05,
+     "mid": 600.0,
+     "high": 600.0,
+     "change_pct": 0.0,
+     "upside_pct": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 585.78,
+     "mid": 600.0,
+     "high": 600.39,
+     "change_pct": 0.0,
+     "upside_pct": 0.07
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 577.65,
+     "mid": 600.0,
+     "high": 606.44,
+     "change_pct": 0.0,
+     "upside_pct": 1.07
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 572.89,
+     "mid": 600.0,
+     "high": 612.46,
+     "change_pct": 0.0,
+     "upside_pct": 2.08
+    }
+   ]
+  },
+  {
+   "product_id": "dates_fruit",
+   "name_en": "Dates (regular)",
+   "name_bn": "খেজুর (সাধারণ মানের)",
+   "category": "groceries",
+   "unit": "kg",
+   "last_price": 450.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 444.82,
+     "mid": 450.0,
+     "high": 459.03,
+     "change_pct": 0.0,
+     "upside_pct": 2.01
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 441.33,
+     "mid": 450.0,
+     "high": 466.34,
+     "change_pct": 0.0,
+     "upside_pct": 3.63
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 438.46,
+     "mid": 450.0,
+     "high": 471.88,
+     "change_pct": 0.0,
+     "upside_pct": 4.86
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 435.33,
+     "mid": 450.0,
+     "high": 478.27,
+     "change_pct": 0.0,
+     "upside_pct": 6.28
+    }
+   ]
+  },
+  {
+   "product_id": "dried_chili_imported",
+   "name_en": "Dried chili (imported)",
+   "name_bn": "শুকনা মরিচ (আমদানি)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 415.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 403.17,
+     "mid": 415.0,
+     "high": 415.21,
+     "change_pct": 0.0,
+     "upside_pct": 0.05
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 395.62,
+     "mid": 415.0,
+     "high": 416.6,
+     "change_pct": 0.0,
+     "upside_pct": 0.39
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 389.0,
+     "mid": 415.0,
+     "high": 420.26,
+     "change_pct": 0.0,
+     "upside_pct": 1.27
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 385.01,
+     "mid": 415.0,
+     "high": 424.41,
+     "change_pct": 0.0,
+     "upside_pct": 2.27
+    }
+   ]
+  },
+  {
+   "product_id": "dried_chili_local",
+   "name_en": "Dried chili (local)",
+   "name_bn": "শুকনা মরিচ (দেশী)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 350.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 339.48,
+     "mid": 350.0,
+     "high": 353.53,
+     "change_pct": 0.0,
+     "upside_pct": 1.01
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 334.32,
+     "mid": 350.0,
+     "high": 356.68,
+     "change_pct": 0.0,
+     "upside_pct": 1.91
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 331.89,
+     "mid": 350.0,
+     "high": 359.86,
+     "change_pct": 0.0,
+     "upside_pct": 2.82
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 329.04,
+     "mid": 350.0,
+     "high": 363.12,
+     "change_pct": 0.0,
+     "upside_pct": 3.75
+    }
+   ]
+  },
+  {
+   "product_id": "egg_farm",
+   "name_en": "Eggs (farm)",
+   "name_bn": "ডিম (ফার্ম)",
+   "category": "groceries",
+   "unit": "hali (4 eggs)",
+   "last_price": 48.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 46.71,
+     "mid": 48.5,
+     "high": 50.23,
+     "change_pct": 0.0,
+     "upside_pct": 3.57
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 45.91,
+     "mid": 48.5,
+     "high": 51.24,
+     "change_pct": 0.0,
+     "upside_pct": 5.65
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 45.22,
+     "mid": 48.5,
+     "high": 51.64,
+     "change_pct": 0.0,
+     "upside_pct": 6.47
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 44.83,
+     "mid": 48.5,
+     "high": 52.46,
+     "change_pct": 0.0,
+     "upside_pct": 8.16
+    }
+   ]
+  },
+  {
+   "product_id": "eggplant",
+   "name_en": "Eggplant",
+   "name_bn": "বেগুন",
+   "category": "vegetables",
+   "unit": "kg",
+   "last_price": 100.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 89.99,
+     "mid": 100.01,
+     "high": 124.27,
+     "change_pct": 0.01,
+     "upside_pct": 24.27
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 87.66,
+     "mid": 100.06,
+     "high": 130.43,
+     "change_pct": 0.06,
+     "upside_pct": 30.43
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 85.91,
+     "mid": 100.06,
+     "high": 135.1,
+     "change_pct": 0.06,
+     "upside_pct": 35.1
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 84.88,
+     "mid": 100.06,
+     "high": 137.76,
+     "change_pct": 0.06,
+     "upside_pct": 37.76
+    }
+   ]
+  },
+  {
+   "product_id": "garlic_imported",
+   "name_en": "Garlic (imported)",
+   "name_bn": "রসুন (আমদানি)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 180.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 172.8,
+     "mid": 180.0,
+     "high": 190.48,
+     "change_pct": 0.0,
+     "upside_pct": 5.82
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 169.98,
+     "mid": 180.0,
+     "high": 194.82,
+     "change_pct": 0.0,
+     "upside_pct": 8.23
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 167.34,
+     "mid": 180.0,
+     "high": 199.65,
+     "change_pct": 0.0,
+     "upside_pct": 10.92
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 165.21,
+     "mid": 180.83,
+     "high": 202.44,
+     "change_pct": 0.46,
+     "upside_pct": 12.47
+    }
+   ]
+  },
+  {
+   "product_id": "garlic_local",
+   "name_en": "Garlic (local)",
+   "name_bn": "রসুন (দেশী)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 115.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 107.25,
+     "mid": 115.01,
+     "high": 121.23,
+     "change_pct": 0.01,
+     "upside_pct": 5.42
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 105.19,
+     "mid": 115.0,
+     "high": 123.14,
+     "change_pct": 0.0,
+     "upside_pct": 7.08
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 103.2,
+     "mid": 115.0,
+     "high": 126.4,
+     "change_pct": 0.0,
+     "upside_pct": 9.91
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 101.58,
+     "mid": 115.0,
+     "high": 125.85,
+     "change_pct": 0.0,
+     "upside_pct": 9.43
+    }
+   ]
+  },
+  {
+   "product_id": "ginger_imported",
+   "name_en": "Ginger (imported)",
+   "name_bn": "আদা (আমদানি)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 150.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 141.48,
+     "mid": 150.0,
+     "high": 159.17,
+     "change_pct": 0.0,
+     "upside_pct": 6.11
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 139.39,
+     "mid": 150.0,
+     "high": 161.91,
+     "change_pct": 0.0,
+     "upside_pct": 7.94
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 136.77,
+     "mid": 150.0,
+     "high": 165.04,
+     "change_pct": 0.0,
+     "upside_pct": 10.03
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 135.49,
+     "mid": 150.0,
+     "high": 167.34,
+     "change_pct": 0.0,
+     "upside_pct": 11.56
+    }
+   ]
+  },
+  {
+   "product_id": "ginger_local",
+   "name_en": "Ginger (local)",
+   "name_bn": "আদা (দেশী)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 120.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 112.79,
+     "mid": 120.13,
+     "high": 135.55,
+     "change_pct": 0.11,
+     "upside_pct": 12.96
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 111.07,
+     "mid": 120.16,
+     "high": 141.53,
+     "change_pct": 0.13,
+     "upside_pct": 17.94
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 109.18,
+     "mid": 120.16,
+     "high": 145.06,
+     "change_pct": 0.13,
+     "upside_pct": 20.88
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 108.11,
+     "mid": 120.16,
+     "high": 146.56,
+     "change_pct": 0.13,
+     "upside_pct": 22.13
+    }
+   ]
+  },
+  {
+   "product_id": "green_chili",
+   "name_en": "Green chili",
+   "name_bn": "কাঁচামরিচ",
+   "category": "vegetables",
+   "unit": "kg",
+   "last_price": 140.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 123.09,
+     "mid": 140.25,
+     "high": 194.63,
+     "change_pct": 0.18,
+     "upside_pct": 39.02
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 118.94,
+     "mid": 140.74,
+     "high": 209.13,
+     "change_pct": 0.53,
+     "upside_pct": 49.38
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 117.06,
+     "mid": 140.74,
+     "high": 219.06,
+     "change_pct": 0.53,
+     "upside_pct": 56.47
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 116.38,
+     "mid": 140.74,
+     "high": 222.8,
+     "change_pct": 0.53,
+     "upside_pct": 59.14
+    }
+   ]
+  },
+  {
+   "product_id": "hilsa",
+   "name_en": "Hilsa",
+   "name_bn": "ইলিশ",
+   "category": "fish_meat",
+   "unit": "kg",
+   "last_price": 1300.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 1298.75,
+     "mid": 1300.0,
+     "high": 1325.93,
+     "change_pct": 0.0,
+     "upside_pct": 1.99
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 1292.56,
+     "mid": 1300.0,
+     "high": 1347.7,
+     "change_pct": 0.0,
+     "upside_pct": 3.67
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 1283.72,
+     "mid": 1300.0,
+     "high": 1391.18,
+     "change_pct": 0.0,
+     "upside_pct": 7.01
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 1274.13,
+     "mid": 1300.0,
+     "high": 1407.83,
+     "change_pct": 0.0,
+     "upside_pct": 8.29
+    }
+   ]
+  },
+  {
+   "product_id": "lemon",
+   "name_en": "Lemon",
+   "name_bn": "লেবু",
+   "category": "vegetables",
+   "unit": "hali (4 pcs)",
+   "last_price": 25.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 22.89,
+     "mid": 25.0,
+     "high": 25.0,
+     "change_pct": 0.0,
+     "upside_pct": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 21.83,
+     "mid": 25.0,
+     "high": 25.0,
+     "change_pct": 0.0,
+     "upside_pct": 0.0
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 21.25,
+     "mid": 25.0,
+     "high": 25.08,
+     "change_pct": 0.0,
+     "upside_pct": 0.32
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 21.02,
+     "mid": 25.0,
+     "high": 25.28,
+     "change_pct": 0.0,
+     "upside_pct": 1.12
+    }
+   ]
+  },
+  {
+   "product_id": "lentil_anchor",
+   "name_en": "Anchor dal",
+   "name_bn": "এ্যাংকর ডাল",
+   "category": "pulses",
+   "unit": "kg",
+   "last_price": 67.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 66.15,
+     "mid": 67.5,
+     "high": 67.5,
+     "change_pct": 0.0,
+     "upside_pct": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 65.08,
+     "mid": 67.5,
+     "high": 67.52,
+     "change_pct": 0.0,
+     "upside_pct": 0.03
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 64.51,
+     "mid": 67.5,
+     "high": 67.92,
+     "change_pct": 0.0,
+     "upside_pct": 0.62
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 63.96,
+     "mid": 67.5,
+     "high": 68.62,
+     "change_pct": 0.0,
+     "upside_pct": 1.66
+    }
+   ]
+  },
+  {
+   "product_id": "lentil_masur_large",
+   "name_en": "Red lentil (large grain)",
+   "name_bn": "মশুর ডাল (বড় দানা)",
+   "category": "pulses",
+   "unit": "kg",
+   "last_price": 95.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 93.98,
+     "mid": 95.0,
+     "high": 97.26,
+     "change_pct": 0.0,
+     "upside_pct": 2.38
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 93.09,
+     "mid": 95.0,
+     "high": 97.75,
+     "change_pct": 0.0,
+     "upside_pct": 2.89
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 92.68,
+     "mid": 95.0,
+     "high": 97.87,
+     "change_pct": 0.0,
+     "upside_pct": 3.02
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 91.79,
+     "mid": 95.0,
+     "high": 98.69,
+     "change_pct": 0.0,
+     "upside_pct": 3.88
+    }
+   ]
+  },
+  {
+   "product_id": "lentil_masur_medium",
+   "name_en": "Red lentil (medium grain)",
+   "name_bn": "মশুর ডাল (মাঝারী দানা)",
+   "category": "pulses",
+   "unit": "kg",
+   "last_price": 117.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 116.53,
+     "mid": 117.5,
+     "high": 118.1,
+     "change_pct": 0.0,
+     "upside_pct": 0.51
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 115.66,
+     "mid": 117.5,
+     "high": 118.61,
+     "change_pct": 0.0,
+     "upside_pct": 0.94
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 114.75,
+     "mid": 117.5,
+     "high": 119.12,
+     "change_pct": 0.0,
+     "upside_pct": 1.38
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 113.93,
+     "mid": 117.5,
+     "high": 120.35,
+     "change_pct": 0.0,
+     "upside_pct": 2.43
+    }
+   ]
+  },
+  {
+   "product_id": "lentil_masur_small",
+   "name_en": "Red lentil (small grain)",
+   "name_bn": "মশুর ডাল (ছোট দানা)",
+   "category": "pulses",
+   "unit": "kg",
+   "last_price": 155.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 154.24,
+     "mid": 155.0,
+     "high": 155.69,
+     "change_pct": 0.0,
+     "upside_pct": 0.45
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 152.92,
+     "mid": 155.0,
+     "high": 156.31,
+     "change_pct": 0.0,
+     "upside_pct": 0.85
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 152.29,
+     "mid": 155.0,
+     "high": 156.84,
+     "change_pct": 0.0,
+     "upside_pct": 1.19
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 151.1,
+     "mid": 155.0,
+     "high": 158.23,
+     "change_pct": 0.0,
+     "upside_pct": 2.08
+    }
+   ]
+  },
+  {
+   "product_id": "lentil_mung",
+   "name_en": "Mung dal",
+   "name_bn": "মুগ ডাল",
+   "category": "pulses",
+   "unit": "kg",
+   "last_price": 150.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 149.12,
+     "mid": 150.0,
+     "high": 150.5,
+     "change_pct": 0.0,
+     "upside_pct": 0.33
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 147.27,
+     "mid": 150.0,
+     "high": 150.95,
+     "change_pct": 0.0,
+     "upside_pct": 0.63
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 145.75,
+     "mid": 150.0,
+     "high": 152.21,
+     "change_pct": 0.0,
+     "upside_pct": 1.47
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 144.84,
+     "mid": 150.0,
+     "high": 153.23,
+     "change_pct": 0.0,
+     "upside_pct": 2.15
+    }
+   ]
+  },
+  {
+   "product_id": "maida_loose",
+   "name_en": "Maida (loose)",
+   "name_bn": "ময়দা (খোলা)",
+   "category": "flour",
+   "unit": "kg",
+   "last_price": 70.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 68.83,
+     "mid": 70.0,
+     "high": 71.51,
+     "change_pct": 0.0,
+     "upside_pct": 2.16
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 68.22,
+     "mid": 70.0,
+     "high": 72.74,
+     "change_pct": 0.0,
+     "upside_pct": 3.91
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 67.74,
+     "mid": 70.0,
+     "high": 73.38,
+     "change_pct": 0.0,
+     "upside_pct": 4.83
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 67.2,
+     "mid": 70.0,
+     "high": 74.28,
+     "change_pct": 0.0,
+     "upside_pct": 6.11
+    }
+   ]
+  },
+  {
+   "product_id": "maida_packet",
+   "name_en": "Maida (packet)",
+   "name_bn": "ময়দা (প্যাকেট)",
+   "category": "flour",
+   "unit": "kg packet",
+   "last_price": 87.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 85.56,
+     "mid": 87.5,
+     "high": 87.81,
+     "change_pct": 0.0,
+     "upside_pct": 0.35
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 84.97,
+     "mid": 87.5,
+     "high": 88.64,
+     "change_pct": 0.0,
+     "upside_pct": 1.3
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 84.46,
+     "mid": 87.5,
+     "high": 89.13,
+     "change_pct": 0.0,
+     "upside_pct": 1.86
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 83.78,
+     "mid": 87.5,
+     "high": 90.07,
+     "change_pct": 0.0,
+     "upside_pct": 2.94
+    }
+   ]
+  },
+  {
+   "product_id": "milk_powder_dano",
+   "name_en": "Milk powder (Dano)",
+   "name_bn": "গুড়া দুধ (ডানো)",
+   "category": "milk_powder",
+   "unit": "1 kg packet",
+   "last_price": 900.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 899.77,
+     "mid": 900.0,
+     "high": 907.14,
+     "change_pct": 0.0,
+     "upside_pct": 0.79
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 898.53,
+     "mid": 900.0,
+     "high": 909.76,
+     "change_pct": 0.0,
+     "upside_pct": 1.08
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 897.4,
+     "mid": 900.0,
+     "high": 910.98,
+     "change_pct": 0.0,
+     "upside_pct": 1.22
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 890.57,
+     "mid": 900.0,
+     "high": 917.67,
+     "change_pct": 0.0,
+     "upside_pct": 1.96
+    }
+   ]
+  },
+  {
+   "product_id": "milk_powder_diploma",
+   "name_en": "Milk powder (Diploma)",
+   "name_bn": "গুড়া দুধ (ডিপ্লোমা)",
+   "category": "milk_powder",
+   "unit": "1 kg packet",
+   "last_price": 925.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 924.64,
+     "mid": 925.0,
+     "high": 926.71,
+     "change_pct": 0.0,
+     "upside_pct": 0.18
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 923.67,
+     "mid": 925.0,
+     "high": 928.98,
+     "change_pct": 0.0,
+     "upside_pct": 0.43
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 922.54,
+     "mid": 925.0,
+     "high": 930.36,
+     "change_pct": 0.0,
+     "upside_pct": 0.58
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 916.2,
+     "mid": 925.0,
+     "high": 937.93,
+     "change_pct": 0.0,
+     "upside_pct": 1.4
+    }
+   ]
+  },
+  {
+   "product_id": "milk_powder_fresh",
+   "name_en": "Milk powder (Fresh)",
+   "name_bn": "গুড়া দুধ (ফ্রেশ)",
+   "category": "milk_powder",
+   "unit": "1 kg packet",
+   "last_price": 910.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 909.86,
+     "mid": 910.0,
+     "high": 910.0,
+     "change_pct": 0.0,
+     "upside_pct": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 908.94,
+     "mid": 910.0,
+     "high": 911.25,
+     "change_pct": 0.0,
+     "upside_pct": 0.14
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 907.81,
+     "mid": 910.0,
+     "high": 912.45,
+     "change_pct": 0.0,
+     "upside_pct": 0.27
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 901.67,
+     "mid": 910.0,
+     "high": 918.93,
+     "change_pct": 0.0,
+     "upside_pct": 0.98
+    }
+   ]
+  },
+  {
+   "product_id": "milk_powder_marks",
+   "name_en": "Milk powder (Marks)",
+   "name_bn": "গুড়া দুধ (মার্কস)",
+   "category": "milk_powder",
+   "unit": "1 kg packet",
+   "last_price": 915.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 914.87,
+     "mid": 915.0,
+     "high": 917.15,
+     "change_pct": 0.0,
+     "upside_pct": 0.23
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 913.87,
+     "mid": 915.0,
+     "high": 918.84,
+     "change_pct": 0.0,
+     "upside_pct": 0.42
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 912.79,
+     "mid": 915.0,
+     "high": 920.97,
+     "change_pct": 0.0,
+     "upside_pct": 0.65
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 906.62,
+     "mid": 915.0,
+     "high": 928.76,
+     "change_pct": 0.0,
+     "upside_pct": 1.5
+    }
+   ]
+  },
+  {
+   "product_id": "ms_rod_40",
+   "name_en": "MS rod (40 grade)",
+   "name_bn": "এম.এস রড (৪০ গ্রেড)",
+   "category": "construction",
+   "unit": "metric ton",
+   "last_price": 90000.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 88110.47,
+     "mid": 90027.7,
+     "high": 90658.66,
+     "change_pct": 0.03,
+     "upside_pct": 0.73
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 86787.54,
+     "mid": 90027.7,
+     "high": 91067.73,
+     "change_pct": 0.03,
+     "upside_pct": 1.19
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 86247.39,
+     "mid": 90027.7,
+     "high": 91870.5,
+     "change_pct": 0.03,
+     "upside_pct": 2.08
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 85549.56,
+     "mid": 90027.7,
+     "high": 92692.42,
+     "change_pct": 0.03,
+     "upside_pct": 2.99
+    }
+   ]
+  },
+  {
+   "product_id": "ms_rod_60",
+   "name_en": "MS rod (60 grade)",
+   "name_bn": "এম.এস রড (৬০ গ্রেড)",
+   "category": "construction",
+   "unit": "metric ton",
+   "last_price": 93500.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 89699.17,
+     "mid": 93528.77,
+     "high": 94131.25,
+     "change_pct": 0.03,
+     "upside_pct": 0.68
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 88540.88,
+     "mid": 93528.77,
+     "high": 94914.61,
+     "change_pct": 0.03,
+     "upside_pct": 1.51
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 87599.75,
+     "mid": 93528.77,
+     "high": 95835.69,
+     "change_pct": 0.03,
+     "upside_pct": 2.5
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 87000.66,
+     "mid": 93528.77,
+     "high": 97011.83,
+     "change_pct": 0.03,
+     "upside_pct": 3.76
+    }
+   ]
+  },
+  {
+   "product_id": "mutton",
+   "name_en": "Mutton (goat)",
+   "name_bn": "খাসী",
+   "category": "fish_meat",
+   "unit": "kg",
+   "last_price": 1275.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 1264.07,
+     "mid": 1275.0,
+     "high": 1275.0,
+     "change_pct": 0.0,
+     "upside_pct": 0.0
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 1249.4,
+     "mid": 1275.0,
+     "high": 1279.68,
+     "change_pct": 0.0,
+     "upside_pct": 0.37
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 1245.7,
+     "mid": 1275.0,
+     "high": 1292.17,
+     "change_pct": 0.0,
+     "upside_pct": 1.35
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 1236.66,
+     "mid": 1275.0,
+     "high": 1307.92,
+     "change_pct": 0.0,
+     "upside_pct": 2.58
+    }
+   ]
+  },
+  {
+   "product_id": "onion_local",
+   "name_en": "Onion (local)",
+   "name_bn": "পিঁয়াজ (দেশী)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 55.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 51.21,
+     "mid": 55.0,
+     "high": 66.53,
+     "change_pct": 0.0,
+     "upside_pct": 20.96
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 50.4,
+     "mid": 55.0,
+     "high": 69.52,
+     "change_pct": 0.0,
+     "upside_pct": 26.4
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 50.16,
+     "mid": 55.27,
+     "high": 74.54,
+     "change_pct": 0.49,
+     "upside_pct": 35.53
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 49.62,
+     "mid": 55.27,
+     "high": 76.39,
+     "change_pct": 0.49,
+     "upside_pct": 38.89
+    }
+   ]
+  },
+  {
+   "product_id": "palm_oil_loose",
+   "name_en": "Palm oil (loose)",
+   "name_bn": "পাম অয়েল (লুজ)",
+   "category": "edible_oil",
+   "unit": "litre",
+   "last_price": 171.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 170.09,
+     "mid": 171.5,
+     "high": 173.92,
+     "change_pct": 0.0,
+     "upside_pct": 1.41
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 169.59,
+     "mid": 171.51,
+     "high": 175.43,
+     "change_pct": 0.01,
+     "upside_pct": 2.29
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 169.13,
+     "mid": 171.51,
+     "high": 176.33,
+     "change_pct": 0.01,
+     "upside_pct": 2.82
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 167.83,
+     "mid": 171.51,
+     "high": 178.27,
+     "change_pct": 0.01,
+     "upside_pct": 3.95
+    }
+   ]
+  },
+  {
+   "product_id": "palm_oil_super_loose",
+   "name_en": "Super palm oil (loose)",
+   "name_bn": "সুপার পাম অয়েল (লুজ)",
+   "category": "edible_oil",
+   "unit": "litre",
+   "last_price": 177.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 176.8,
+     "mid": 177.51,
+     "high": 180.69,
+     "change_pct": 0.01,
+     "upside_pct": 1.8
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 176.41,
+     "mid": 177.52,
+     "high": 182.12,
+     "change_pct": 0.01,
+     "upside_pct": 2.6
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 175.95,
+     "mid": 177.52,
+     "high": 184.01,
+     "change_pct": 0.01,
+     "upside_pct": 3.67
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 174.66,
+     "mid": 177.52,
+     "high": 185.98,
+     "change_pct": 0.01,
+     "upside_pct": 4.78
+    }
+   ]
+  },
+  {
+   "product_id": "potato",
+   "name_en": "Potato",
+   "name_bn": "আলু",
+   "category": "vegetables",
+   "unit": "kg",
+   "last_price": 27.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 26.18,
+     "mid": 27.5,
+     "high": 30.12,
+     "change_pct": 0.0,
+     "upside_pct": 9.53
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 25.6,
+     "mid": 27.52,
+     "high": 31.12,
+     "change_pct": 0.07,
+     "upside_pct": 13.16
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 25.14,
+     "mid": 27.52,
+     "high": 31.95,
+     "change_pct": 0.07,
+     "upside_pct": 16.18
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 24.9,
+     "mid": 27.52,
+     "high": 32.39,
+     "change_pct": 0.07,
+     "upside_pct": 17.78
+    }
+   ]
+  },
+  {
+   "product_id": "rice_aromatic_loose",
+   "name_en": "Aromatic rice (polao)",
+   "name_bn": "চাল সুগন্ধী (পোলাও)",
+   "category": "rice",
+   "unit": "kg",
+   "last_price": 192.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 191.6,
+     "mid": 192.5,
+     "high": 194.43,
+     "change_pct": 0.0,
+     "upside_pct": 1.0
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 189.09,
+     "mid": 192.5,
+     "high": 196.75,
+     "change_pct": 0.0,
+     "upside_pct": 2.21
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 187.48,
+     "mid": 192.5,
+     "high": 199.11,
+     "change_pct": 0.0,
+     "upside_pct": 3.43
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 186.12,
+     "mid": 192.5,
+     "high": 201.1,
+     "change_pct": 0.0,
+     "upside_pct": 4.47
+    }
+   ]
+  },
+  {
+   "product_id": "rice_aromatic_packet",
+   "name_en": "Aromatic rice (polao) packet",
+   "name_bn": "চাল সুগন্ধী (পোলাও) প্যাকেট",
+   "category": "rice",
+   "unit": "kg packet",
+   "last_price": 215.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 213.92,
+     "mid": 215.0,
+     "high": 217.24,
+     "change_pct": 0.0,
+     "upside_pct": 1.04
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 211.36,
+     "mid": 215.0,
+     "high": 219.99,
+     "change_pct": 0.0,
+     "upside_pct": 2.32
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 209.56,
+     "mid": 215.0,
+     "high": 222.16,
+     "change_pct": 0.0,
+     "upside_pct": 3.33
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 208.04,
+     "mid": 215.0,
+     "high": 224.38,
+     "change_pct": 0.0,
+     "upside_pct": 4.36
+    }
+   ]
+  },
+  {
+   "product_id": "rice_bran_oil_5l",
+   "name_en": "Rice bran oil (5 L bottle)",
+   "name_bn": "রাইস ব্রান তেল (বোতল ৫ লিটার)",
+   "category": "edible_oil",
+   "unit": "5 L bottle",
+   "last_price": 1117.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 1112.51,
+     "mid": 1117.5,
+     "high": 1133.06,
+     "change_pct": 0.0,
+     "upside_pct": 1.39
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 1110.86,
+     "mid": 1117.5,
+     "high": 1137.35,
+     "change_pct": 0.0,
+     "upside_pct": 1.78
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 1109.33,
+     "mid": 1117.5,
+     "high": 1140.9,
+     "change_pct": 0.0,
+     "upside_pct": 2.09
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 1101.63,
+     "mid": 1117.5,
+     "high": 1152.64,
+     "change_pct": 0.0,
+     "upside_pct": 3.14
+    }
+   ]
+  },
+  {
+   "product_id": "rice_coarse",
+   "name_en": "Coarse rice (Swarna/China IRRI)",
+   "name_bn": "চাল মোটা (স্বর্ণা/চায়না ইরি)",
+   "category": "rice",
+   "unit": "kg",
+   "last_price": 52.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 52.35,
+     "mid": 52.5,
+     "high": 52.73,
+     "change_pct": 0.0,
+     "upside_pct": 0.44
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 51.81,
+     "mid": 52.5,
+     "high": 52.92,
+     "change_pct": 0.0,
+     "upside_pct": 0.8
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 51.36,
+     "mid": 52.5,
+     "high": 53.35,
+     "change_pct": 0.0,
+     "upside_pct": 1.62
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 50.99,
+     "mid": 52.5,
+     "high": 53.86,
+     "change_pct": 0.0,
+     "upside_pct": 2.59
+    }
+   ]
+  },
+  {
+   "product_id": "rice_fine",
+   "name_en": "Fine rice (Nazir/Miniket)",
+   "name_bn": "চাল সরু (নাজির/মিনিকেট)",
+   "category": "rice",
+   "unit": "kg",
+   "last_price": 77.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 76.76,
+     "mid": 77.5,
+     "high": 78.69,
+     "change_pct": 0.0,
+     "upside_pct": 1.54
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 76.75,
+     "mid": 77.5,
+     "high": 79.21,
+     "change_pct": 0.0,
+     "upside_pct": 2.21
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 76.38,
+     "mid": 77.5,
+     "high": 79.64,
+     "change_pct": 0.0,
+     "upside_pct": 2.76
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 75.84,
+     "mid": 77.5,
+     "high": 80.63,
+     "change_pct": 0.0,
+     "upside_pct": 4.04
+    }
+   ]
+  },
+  {
+   "product_id": "rice_medium",
+   "name_en": "Medium rice (Paijam/BR-28)",
+   "name_bn": "চাল মাঝারী (পাইজাম/আটাশ)",
+   "category": "rice",
+   "unit": "kg",
+   "last_price": 60.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 59.85,
+     "mid": 60.5,
+     "high": 61.55,
+     "change_pct": 0.0,
+     "upside_pct": 1.74
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 59.44,
+     "mid": 60.5,
+     "high": 62.34,
+     "change_pct": 0.0,
+     "upside_pct": 3.04
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 59.07,
+     "mid": 60.5,
+     "high": 62.64,
+     "change_pct": 0.0,
+     "upside_pct": 3.54
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 58.59,
+     "mid": 60.5,
+     "high": 63.42,
+     "change_pct": 0.0,
+     "upside_pct": 4.83
+    }
+   ]
+  },
+  {
+   "product_id": "rui_fish",
+   "name_en": "Rui fish",
+   "name_bn": "রুই",
+   "category": "fish_meat",
+   "unit": "kg",
+   "last_price": 375.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 374.15,
+     "mid": 375.0,
+     "high": 375.35,
+     "change_pct": 0.0,
+     "upside_pct": 0.09
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 370.86,
+     "mid": 375.0,
+     "high": 375.87,
+     "change_pct": 0.0,
+     "upside_pct": 0.23
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 367.69,
+     "mid": 375.0,
+     "high": 377.76,
+     "change_pct": 0.0,
+     "upside_pct": 0.74
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 364.96,
+     "mid": 375.0,
+     "high": 381.45,
+     "change_pct": 0.0,
+     "upside_pct": 1.72
+    }
+   ]
+  },
+  {
+   "product_id": "salt_iodized",
+   "name_en": "Salt (iodized packet)",
+   "name_bn": "লবণ (প্যাকেট আয়োডিনযুক্ত)",
+   "category": "groceries",
+   "unit": "kg packet",
+   "last_price": 41.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 40.78,
+     "mid": 41.0,
+     "high": 41.09,
+     "change_pct": 0.0,
+     "upside_pct": 0.22
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 40.74,
+     "mid": 41.0,
+     "high": 41.14,
+     "change_pct": 0.0,
+     "upside_pct": 0.34
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 40.73,
+     "mid": 41.0,
+     "high": 41.21,
+     "change_pct": 0.0,
+     "upside_pct": 0.51
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 40.46,
+     "mid": 41.0,
+     "high": 41.5,
+     "change_pct": 0.0,
+     "upside_pct": 1.22
+    }
+   ]
+  },
+  {
+   "product_id": "soybean_oil_1l",
+   "name_en": "Soybean oil (1 L bottle)",
+   "name_bn": "সয়াবিন তেল (বোতল ১ লিটার)",
+   "category": "edible_oil",
+   "unit": "1 L bottle",
+   "last_price": 204.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 203.21,
+     "mid": 204.0,
+     "high": 205.13,
+     "change_pct": 0.0,
+     "upside_pct": 0.55
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 202.89,
+     "mid": 204.01,
+     "high": 206.5,
+     "change_pct": 0.0,
+     "upside_pct": 1.23
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 202.62,
+     "mid": 204.01,
+     "high": 207.71,
+     "change_pct": 0.0,
+     "upside_pct": 1.82
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 201.17,
+     "mid": 204.01,
+     "high": 208.2,
+     "change_pct": 0.0,
+     "upside_pct": 2.06
+    }
+   ]
+  },
+  {
+   "product_id": "soybean_oil_2l",
+   "name_en": "Soybean oil (2 L bottle)",
+   "name_bn": "সয়াবিন তেল (বোতল ২ লিটার)",
+   "category": "edible_oil",
+   "unit": "2 L bottle",
+   "last_price": 410.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 409.29,
+     "mid": 410.0,
+     "high": 411.63,
+     "change_pct": 0.0,
+     "upside_pct": 0.4
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 409.0,
+     "mid": 410.01,
+     "high": 413.53,
+     "change_pct": 0.0,
+     "upside_pct": 0.86
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 408.53,
+     "mid": 410.01,
+     "high": 414.36,
+     "change_pct": 0.0,
+     "upside_pct": 1.06
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 405.65,
+     "mid": 410.01,
+     "high": 418.52,
+     "change_pct": 0.0,
+     "upside_pct": 2.08
+    }
+   ]
+  },
+  {
+   "product_id": "soybean_oil_5l",
+   "name_en": "Soybean oil (5 L bottle)",
+   "name_bn": "সয়াবিন তেল (বোতল ৫ লিটার)",
+   "category": "edible_oil",
+   "unit": "5 L bottle",
+   "last_price": 1000.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 996.94,
+     "mid": 999.98,
+     "high": 1006.41,
+     "change_pct": -0.0,
+     "upside_pct": 0.64
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 995.0,
+     "mid": 1001.82,
+     "high": 1010.13,
+     "change_pct": 0.18,
+     "upside_pct": 1.01
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 993.68,
+     "mid": 1000.54,
+     "high": 1014.98,
+     "change_pct": 0.05,
+     "upside_pct": 1.5
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 985.68,
+     "mid": 1001.82,
+     "high": 1024.09,
+     "change_pct": 0.18,
+     "upside_pct": 2.41
+    }
+   ]
+  },
+  {
+   "product_id": "soybean_oil_loose",
+   "name_en": "Soybean oil (loose)",
+   "name_bn": "সয়াবিন তেল (লুজ)",
+   "category": "edible_oil",
+   "unit": "litre",
+   "last_price": 194.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 193.64,
+     "mid": 194.51,
+     "high": 197.55,
+     "change_pct": 0.01,
+     "upside_pct": 1.57
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 192.65,
+     "mid": 194.52,
+     "high": 199.32,
+     "change_pct": 0.01,
+     "upside_pct": 2.48
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 191.66,
+     "mid": 194.52,
+     "high": 200.97,
+     "change_pct": 0.01,
+     "upside_pct": 3.33
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 190.25,
+     "mid": 194.52,
+     "high": 203.17,
+     "change_pct": 0.01,
+     "upside_pct": 4.46
+    }
+   ]
+  },
+  {
+   "product_id": "sugar",
+   "name_en": "Sugar",
+   "name_bn": "চিনি",
+   "category": "groceries",
+   "unit": "kg",
+   "last_price": 112.5,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 110.56,
+     "mid": 112.5,
+     "high": 112.69,
+     "change_pct": 0.0,
+     "upside_pct": 0.17
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 109.38,
+     "mid": 112.5,
+     "high": 113.01,
+     "change_pct": 0.0,
+     "upside_pct": 0.45
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 108.48,
+     "mid": 112.5,
+     "high": 113.65,
+     "change_pct": 0.0,
+     "upside_pct": 1.02
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 107.41,
+     "mid": 112.5,
+     "high": 114.78,
+     "change_pct": 0.0,
+     "upside_pct": 2.03
+    }
+   ]
+  },
+  {
+   "product_id": "turmeric_imported",
+   "name_en": "Turmeric (imported)",
+   "name_bn": "হলুদ (আমদানি)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 325.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 317.45,
+     "mid": 325.0,
+     "high": 328.33,
+     "change_pct": 0.0,
+     "upside_pct": 1.02
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 315.09,
+     "mid": 325.0,
+     "high": 332.25,
+     "change_pct": 0.0,
+     "upside_pct": 2.23
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 312.5,
+     "mid": 325.0,
+     "high": 334.93,
+     "change_pct": 0.0,
+     "upside_pct": 3.06
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 310.18,
+     "mid": 325.0,
+     "high": 338.57,
+     "change_pct": 0.0,
+     "upside_pct": 4.18
+    }
+   ]
+  },
+  {
+   "product_id": "turmeric_local",
+   "name_en": "Turmeric (local)",
+   "name_bn": "হলুদ (দেশী)",
+   "category": "spices",
+   "unit": "kg",
+   "last_price": 335.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 332.89,
+     "mid": 335.0,
+     "high": 336.09,
+     "change_pct": 0.0,
+     "upside_pct": 0.33
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 328.54,
+     "mid": 335.0,
+     "high": 339.54,
+     "change_pct": 0.0,
+     "upside_pct": 1.36
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 324.22,
+     "mid": 335.0,
+     "high": 341.92,
+     "change_pct": 0.0,
+     "upside_pct": 2.07
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 321.25,
+     "mid": 335.0,
+     "high": 345.34,
+     "change_pct": 0.0,
+     "upside_pct": 3.09
+    }
+   ]
+  },
+  {
+   "product_id": "writing_paper",
+   "name_en": "Writing paper (white)",
+   "name_bn": "লেখার কাগজ (সাদা)",
+   "category": "stationery",
+   "unit": "dista (24 sheets)",
+   "last_price": 37.0,
+   "last_seen": "2026-10-13",
+   "forecast": [
+    {
+     "date": "2026-10-20",
+     "weeks": 1,
+     "low": 37.0,
+     "mid": 37.0,
+     "high": 37.08,
+     "change_pct": 0.0,
+     "upside_pct": 0.22
+    },
+    {
+     "date": "2026-10-27",
+     "weeks": 2,
+     "low": 36.96,
+     "mid": 37.0,
+     "high": 37.07,
+     "change_pct": 0.0,
+     "upside_pct": 0.19
+    },
+    {
+     "date": "2026-11-03",
+     "weeks": 3,
+     "low": 36.92,
+     "mid": 37.0,
+     "high": 37.2,
+     "change_pct": 0.0,
+     "upside_pct": 0.54
+    },
+    {
+     "date": "2026-11-10",
+     "weeks": 4,
+     "low": 36.67,
+     "mid": 37.0,
+     "high": 37.45,
+     "change_pct": 0.0,
+     "upside_pct": 1.22
+    }
+   ]
+  }
+ ]
+}
