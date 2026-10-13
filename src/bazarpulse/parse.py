@@ -89,22 +89,35 @@ def _find_table(ws_rows):
 
 
 def parse_workbook(path):
-    """Return {report_date, block_dates, rows, warnings} or raise ParseError."""
+    """Return {report_date, block_dates, rows, warnings} or raise ParseError.
+
+    Every sheet is tried in order and the first one that parses completely wins: some
+    2025 workbooks put an unrelated TCB sales table in 'Sheet1' and the price sheet third.
+    """
+    with open(path, "rb") as f:
+        head = f.read(4096)
+    if head and not head.strip(b"\0"):
+        raise ParseError("file contains only zero bytes (corrupt on TCB's server)")
     try:
         wb = load_workbook(path, read_only=True, data_only=True)
     except Exception as e:
         raise ParseError(f"cannot open workbook: {type(e).__name__}: {e}") from e
-
-    for ws in wb.worksheets:
-        ws_rows = [tuple(r) for r in ws.iter_rows(values_only=True)]
-        start, cols = _find_table(ws_rows)
-        if start is not None:
-            break
-    else:
-        wb.close()
-        raise ParseError("no sheet contains a 'পণ্যের নাম' / 'অদ্যকার মূল্য' header")
+    sheets = [(ws.title, [tuple(r) for r in ws.iter_rows(values_only=True)]) for ws in wb.worksheets]
     wb.close()
 
+    errors = []
+    for title, ws_rows in sheets:
+        try:
+            return _parse_sheet(ws_rows)
+        except ParseError as e:
+            errors.append(f"{title}: {e}")
+    raise ParseError("; ".join(errors) or "workbook has no sheets")
+
+
+def _parse_sheet(ws_rows):
+    start, cols = _find_table(ws_rows)
+    if start is None:
+        raise ParseError("no 'পণ্যের নাম' / 'অদ্যকার মূল্য' header")
     if "today" not in cols:
         raise ParseError("header has no today's-price column")
     warnings = []

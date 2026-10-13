@@ -99,6 +99,14 @@ def quality_report():
         "\n## Files that failed to parse\n",
     ]
     lines += [f"- `{r['path']}`: {r['error']}" for _, r in failed.iterrows()] or ["- none"]
+    report_days = pd.Series(sorted(prices["date"].unique()))
+    per_year = report_days.dt.year.value_counts().sort_index()
+    gaps = report_days.diff().dt.days
+    lines += ["\n## Coverage\n", "| Year | Report days |", "|---|---|"]
+    lines += [f"| {y} | {n} |" for y, n in per_year.items()]
+    lines += ["\nLargest gaps between report days (TCB's archive has no files for these periods):\n"]
+    for i in gaps.nlargest(3).index:
+        lines.append(f"- {report_days[i - 1].date()} to {report_days[i].date()}: {int(gaps[i])} days")
     os.makedirs("reports", exist_ok=True)
     with open(os.path.join("reports", "data_quality.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")

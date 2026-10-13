@@ -1,4 +1,4 @@
-"""Bazar Pulse API: latest 7-day forecasts and price history for Dhaka's essential goods.
+"""Bazar Pulse API: 1-4 week price ranges and price history for Dhaka's essential goods.
 
     uvicorn api.main:app --reload
 """
@@ -18,8 +18,9 @@ STATUS = os.path.join(DATA, "status.json")
 app = FastAPI(
     title="Bazar Pulse API",
     version="0.1.0",
-    description="7-day price forecasts for Dhaka's essential goods, built from the Trading "
-                "Corporation of Bangladesh (TCB) daily retail price sheets. Not an official source.",
+    description="1-4 week price ranges (low / likely / high, 80% range) for Dhaka's essential goods, "
+                "built from the Trading Corporation of Bangladesh (TCB) daily retail price sheets. "
+                "Not an official source.",
 )
 _cache = {}
 
@@ -79,14 +80,16 @@ def forecast(product_id: str):
 
 @app.get("/movers")
 def movers(limit: int = Query(10, ge=1, le=50)):
-    """Products with the largest expected price change over the next 7 days."""
+    """At the 4-week horizon: largest likely rises and falls, and the largest upside risk
+    (top of the 80% range)."""
     rows = []
     for p in _latest()["products"]:
-        last = p["forecast"][-1]
-        rows.append({**_summary(p), "date": last["date"], "pred_price": last["price"],
-                     "change_pct": last["change_pct"]})
-    rows.sort(key=lambda r: r["change_pct"])
-    return {"rises": rows[::-1][:limit], "falls": rows[:limit]}
+        f = p["forecast"][-1]
+        rows.append({**_summary(p), "date": f["date"], "weeks": f["weeks"], "low": f["low"], "mid": f["mid"],
+                     "high": f["high"], "change_pct": f["change_pct"], "upside_pct": f["upside_pct"]})
+    by_change = sorted(rows, key=lambda r: r["change_pct"])
+    return {"rises": by_change[::-1][:limit], "falls": by_change[:limit],
+            "upside_risk": sorted(rows, key=lambda r: r["upside_pct"], reverse=True)[:limit]}
 
 
 @app.get("/history/{product_id}")
@@ -109,14 +112,16 @@ def history(product_id: str, days: int = Query(90, ge=1, le=2000)):
 
 @app.get("/metrics")
 def metrics(days: int = Query(30, ge=1, le=365)):
-    """Live accuracy: mean absolute % error of the model vs the no-change baseline, per day."""
+    """Live accuracy per day: pinball loss vs the climatology baseline, and how often the
+    real price fell inside the forecast's 80% range."""
+    cols = ("date", "pinball_model", "pinball_climatology", "coverage", "coverage_climatology", "n")
     daily = []
     if os.path.exists(DAILY):
         daily = duckdb.execute(
             f"""
-            SELECT strftime(target_date, '%Y-%m-%d'), round(mape_model, 3), round(mape_naive, 3), n
+            SELECT strftime(target_date, '%Y-%m-%d'), round(pinball_model, 4), round(pinball_climatology, 4),
+                   round(coverage, 3), round(coverage_climatology, 3), n
             FROM read_parquet('{DAILY}')
             ORDER BY target_date DESC LIMIT ?
             """, [days]).fetchall()
-    return {"health": _json(HEALTH),
-            "daily": [dict(zip(("date", "mape_model", "mape_naive", "n"), r, strict=True)) for r in daily]}
+    return {"health": _json(HEALTH), "daily": [dict(zip(cols, r, strict=True)) for r in daily]}

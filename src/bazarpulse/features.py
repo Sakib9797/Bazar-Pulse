@@ -11,7 +11,7 @@ import pandas as pd
 
 from bazarpulse.hijri import calendar_features
 
-HORIZONS = range(1, 8)
+HORIZONS = (7, 14, 21, 28)
 FFILL_LIMIT = 21
 FEATURES = ["h", "product", "category", "r1", "r7", "r14", "r28", "r56", "vol28",
             "ma7_gap", "ma28_gap", "days_since_change", "spread", "cat_r7", "ly_h",

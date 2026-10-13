@@ -68,7 +68,8 @@ def publish(prices, log=print):
     drift = monitor.drift(log)
     newly = sorted(set(drift["drifted"]) - set(previous.get("drifted", [])))
     if newly:
-        alerts.send(f"Price behaviour drifted (PSI > {monitor.PSI_ALERT}) in: {', '.join(newly)}", "warning")
+        alerts.send(f"Unusual price behaviour this month (drift above the category's normal range) in: "
+                    f"{', '.join(newly)}", "warning")
 
     predict.run(log=log)
     champ = registry.load()["champion"]

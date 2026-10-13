@@ -9,6 +9,21 @@ only when a new model is actually better.
 simple. What makes it strong is that it runs, validates, monitors, retrains and
 alerts by itself.
 
+> **What changed during the build** (the original plan is kept below as written)
+>
+> - **Prediction target.** The plan forecast one exact price 1–7 days ahead. On the full
+>   5-year data no model beat "price stays the same" (prices do not move in 85% of cases), so
+>   the product became a **calibrated range** (10% / 50% / 90%) **1–4 weeks ahead**, using
+>   quantile LightGBM + conformalised quantile regression. The baseline to beat is each
+>   product's own historical range ("climatology"); the champion beats it by 3.1% on a
+>   26-week backtest. See README → Results.
+> - **Libraries.** Baselines and features are plain pandas instead of statsforecast /
+>   mlforecast, which keeps the backtest's no-leakage rules easy to read and test.
+> - **Drift.** The textbook PSI > 0.25 threshold fired almost all the time on this data, so
+>   each category is compared with its own two-year PSI history (95th percentile).
+> - **Data surprises.** 2022 is mostly missing from TCB's archive; one file is corrupt at the
+>   source; early-2025 workbooks keep prices in the third sheet. All handled and documented.
+
 ---
 
 ## 1. Facts about the data (checked on TCB's site, 2026-10-04 to 06)

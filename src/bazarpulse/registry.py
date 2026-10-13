@@ -1,7 +1,9 @@
-"""A small model registry kept in git: models/registry.json + gzipped LightGBM models.
+"""A small model registry kept in git: models/registry.json + gzipped model bundles.
 
 Git is the source of truth so the daily pipeline can serve the champion with no
 external service. Every training run is also logged to MLflow (see tracking.py).
+A champion can be the climatology baseline itself (no model file) when no candidate
+beats it.
 """
 import gzip
 import json
@@ -33,31 +35,41 @@ def save(reg):
 
 
 def _model_path(version):
-    return os.path.join(MODELS_DIR, f"model_v{version:04d}.txt.gz").replace(os.sep, "/")
+    return os.path.join(MODELS_DIR, f"model_v{version:04d}.json.gz").replace(os.sep, "/")
 
 
-def load_booster(entry):
+def load_model(entry):
+    """The champion's model, or None when the champion is the climatology baseline."""
+    if not entry.get("file"):
+        return None
     with gzip.open(entry["file"], "rt", encoding="utf-8") as f:
-        return lgb.Booster(model_str=f.read())
+        bundle = json.load(f)
+    return {"boosters": {float(a): lgb.Booster(model_str=s) for a, s in bundle["boosters"].items()},
+            "conformal": {int(h): v for h, v in bundle["conformal"].items()}}
 
 
 def load_champion():
     reg = load()
     if not reg["champion"]:
         raise RuntimeError("no champion model registered - run `python -m bazarpulse.train --initial`")
-    return load_booster(reg["champion"]), reg["champion"]
+    return load_model(reg["champion"]), reg["champion"]
 
 
-def register(booster, config, trained_until, backtest, decision):
+def register(model, config, trained_until, backtest, decision):
     """Store a new champion version; the old champion becomes `previous` (rollback target)."""
     reg = load()
     version = 1 + max([d.get("version", 0) for d in reg["decisions"]] + [0])
-    path = _model_path(version)
-    os.makedirs(MODELS_DIR, exist_ok=True)
-    with gzip.open(path, "wt", encoding="utf-8") as f:
-        f.write(booster.model_to_string())
+    path = None
+    if model is not None:
+        path = _model_path(version)
+        os.makedirs(MODELS_DIR, exist_ok=True)
+        bundle = {"boosters": {str(a): b.model_to_string() for a, b in model["boosters"].items()},
+                  "conformal": {str(h): v for h, v in model["conformal"].items()}}
+        with gzip.open(path, "wt", encoding="utf-8") as f:
+            json.dump(bundle, f)
     entry = {"version": version, "config": config, "file": path, "trained_until": str(trained_until),
-             "trained_at": now(), "backtest": backtest}
+             "trained_at": now(), "backtest": backtest,
+             "conformal": model["conformal"] if model is not None else None}
     reg["previous"], reg["champion"] = reg["champion"], entry
     reg["decisions"].append({**decision, "version": version, "at": entry["trained_at"]})
     save(reg)
@@ -84,7 +96,7 @@ def rollback(reason):
 
 
 def _prune(reg):
-    keep = {e["file"] for e in (reg["champion"], reg["previous"]) if e}
+    keep = {e["file"] for e in (reg["champion"], reg["previous"]) if e and e.get("file")}
     files = sorted(f for f in os.listdir(MODELS_DIR) if f.startswith("model_v"))
     for f in files[:-KEEP_FILES]:
         p = os.path.join(MODELS_DIR, f).replace(os.sep, "/")

@@ -1,10 +1,12 @@
-"""Train, compare and register forecasting models.
+"""Train, compare and register range-forecast models.
 
     python -m bazarpulse.train --initial   # 26-week backtest of every candidate; register the best
     python -m bazarpulse.train --weekly    # 8-week challenger vs champion; switch only if clearly better
 
-Whatever config wins is refit on all data and registered as a new champion version;
-the old one is kept as the rollback target.
+The score is the pinball loss of the low / likely / high forecasts (lower is better).
+A model must beat the climatology baseline to be served; if none does, the baseline
+itself is registered as champion. Whatever wins is refit on the latest data and stored
+as a new champion version; the old one is kept as the rollback target.
 """
 import argparse
 import json
@@ -23,7 +25,7 @@ def load_rows():
     products = catalog.load_products()
     prices = pd.read_parquet(PRICES)
     prices = prices[prices["product_id"].isin(products)]
-    return prices, products, features.training_rows(prices, products)
+    return products, features.training_rows(prices, products)
 
 
 def evaluate(rows, configs, weeks, log):
@@ -33,42 +35,80 @@ def evaluate(rows, configs, weeks, log):
     for cfg in configs:
         log(f"  backtesting {cfg['name']} on origins {start.date()} .. {end.date()}")
         with tracking.run(f"backtest-{cfg['name']}-{weeks}w", params={**cfg, "weeks": weeks}, log=log) as ml:
-            preds = models.backtest(rows, cfg, start, end, log=log)
-            summary = models.summarize(preds)
+            res = models.backtest(rows, cfg, start, end, log=log)
+            summary = models.summarize(res)
             tracking.log_metrics(ml, summary)
-        results[cfg["name"]] = {"summary": summary, "preds": preds}
+        log(f"    pinball {summary['pinball_model']:.4f} (climatology {summary['pinball_climatology']:.4f}, "
+            f"skill {summary['skill']:+.1%}), coverage {summary['coverage_model']:.1%}")
+        results[cfg["name"]] = {"summary": summary, "res": res}
     return results, start, end
 
 
+def _choose(results):
+    """Best candidate by pinball loss, or the climatology baseline if no model beats it."""
+    best = min(results, key=lambda n: results[n]["summary"]["pinball_model"])
+    s = results[best]["summary"]
+    if s["pinball_model"] >= s["pinball_climatology"]:
+        return models.CLIMATOLOGY, s
+    return next(c for c in models.CANDIDATES if c["name"] == best), s
+
+
 def _fit_and_register(rows, config, summary, decision, log):
-    log(f"  refitting {config['name']} on all {len(rows):,} rows")
     with tracking.run(f"train-{config['name']}", params=config, log=log) as ml:
-        booster = models.fit(rows, config)
-        entry = registry.register(booster, config, rows["target_date"].max().date(), summary, decision)
+        model = None
+        if config["name"] != models.CLIMATOLOGY["name"]:
+            log(f"  fitting {config['name']} on {len(rows):,} rows "
+                f"(last {models.CAL_DAYS} days for calibration)")
+            model = models.fit(rows, config)
+        entry = registry.register(model, config, rows["target_date"].max().date(), summary, decision)
         tracking.log_metrics(ml, summary, prefix="backtest_")
-        tracking.log_artifact(ml, entry["file"])
+        if entry["file"]:
+            tracking.log_artifact(ml, entry["file"])
     log(f"  registered champion v{entry['version']} ({config['name']})")
     return entry
 
 
-def write_report(results, start, end, products, best):
+def write_report(results, start, end, products, chosen):
     os.makedirs(REPORTS, exist_ok=True)
-    lines = ["# Backtest report\n", f"Origins {start.date()} to {end.date()}, horizons 1-7 days, "
-             "models refit every 28 days on data known before each block.\n",
-             "| Model | MAPE all h | MAPE h=1 | MAPE h=7 | Products beating naive |", "|---|---|---|---|---|"]
-    any_summary = next(iter(results.values()))["summary"]
-    for name in ("naive", "drift", "ma7"):
-        lines.append(f"| baseline: {name} | {any_summary[f'mape_{name}']:.2f}% | | | |")
+    any_s = next(iter(results.values()))["summary"]
+    lines = [
+        "# Backtest report\n",
+        f"Forecast origins {start.date()} to {end.date()}; horizons 1, 2, 3 and 4 weeks; models refit every "
+        f"28 days using only data known before each block (last {models.CAL_DAYS} days held out for "
+        "calibration).\n",
+        "Score = pinball loss of the 10% / 50% / 90% forecasts (lower is better). Skill = improvement over "
+        "**climatology**: each product's own range of price changes over the previous year.\n",
+        "| Model | Pinball | Skill vs climatology | 80% range covers | Range width | Products better |",
+        "|---|---|---|---|---|---|",
+        f"| baseline: climatology | {any_s['pinball_climatology']:.4f} | - | "
+        f"{any_s['coverage_climatology']:.1%} | {any_s['width_climatology']:.2f}% | - |",
+    ]
     for name, r in results.items():
         s = r["summary"]
-        lines.append(f"| {name} | {s['mape_model']:.2f}% | {s['mape_model_h1']:.2f}% | "
-                     f"{s['mape_model_h7']:.2f}% | {s['products_beating_naive']} of {s['products']} |")
-    table = models.per_product_table(results[best]["preds"], products)
-    lines += [f"\n## Per product ({best}), most volatile first\n",
-              "| Product | Model MAPE | Naive MAPE | Model better |", "|---|---|---|---|"]
+        lines.append(f"| {name} | {s['pinball_model']:.4f} | {s['skill']:+.1%} | {s['coverage_model']:.1%} | "
+                     f"{s['width_model']:.2f}% | {s['products_beating_climatology']} of {s['products']} |")
+    best = min(results, key=lambda n: results[n]["summary"]["pinball_model"])
+    s = results[best]["summary"]
+    lines += ["\n## By horizon (" + best + ")\n", "| Horizon | Skill | 80% range covers |", "|---|---|---|"]
+    for h in features.HORIZONS:
+        weeks = f"{h // 7} week{'s' if h > 7 else ''}"
+        lines.append(f"| {weeks} | {s[f'skill_h{h}']:+.1%} | {s[f'coverage_h{h}']:.1%} |")
+    lines += [
+        "\n## Exact-price forecasts\n",
+        f"The median forecast's error is {s['mape_mid']:.2f}% vs {s['mape_naive']:.2f}% "
+        "for \"price stays the same\". Most TCB prices do not move in a given week, so exact forecasts "
+        "do not beat no-change; "
+        "the useful, measurable signal is in the range.\n",
+        f"Champion chosen: **{chosen}**.\n",
+        f"\n## Per product ({best}), most volatile first\n",
+        "| Product | Model pinball | Climatology | Range covers | Better |", "|---|---|---|---|---|"]
+    table = models.per_product_table(results[best]["res"], products)
     for _, r in table.iterrows():
-        better = "yes" if r["model_better"] else "no"
-        lines.append(f"| {r['name_en']} | {r['model']:.2f}% | {r['naive']:.2f}% | {better} |")
+        lines.append(f"| {r['name_en']} | {r['model']:.3f} | {r['climatology']:.3f} | {r['covered']:.0%} | "
+                     f"{'yes' if r['model_better'] else 'no'} |")
+    with open(os.path.join(REPORTS, "backtest_products.json"), "w", encoding="utf-8") as f:
+        json.dump({pid: {"coverage": round(float(r["covered"]), 3), "model_better": bool(r["model_better"])}
+                   for pid, r in table.iterrows()}, f, indent=1)
     with open(os.path.join(REPORTS, "backtest.md"), "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
     with open(os.path.join(REPORTS, "backtest.json"), "w", encoding="utf-8") as f:
@@ -76,19 +116,16 @@ def write_report(results, start, end, products, best):
 
 
 def initial(log=print):
-    _, products, rows = load_rows()
+    products, rows = load_rows()
     log(f"training rows: {len(rows):,}")
     results, start, end = evaluate(rows, models.CANDIDATES, weeks=26, log=log)
-    best = min(results, key=lambda n: results[n]["summary"]["mape_model"])
-    write_report(results, start, end, products, best)
-    s = results[best]["summary"]
-    config = next(c for c in models.CANDIDATES if c["name"] == best)
-    beats = s["mape_model"] < s["mape_naive"]
-    log(f"best: {best} MAPE {s['mape_model']:.2f}% vs naive {s['mape_naive']:.2f}% "
-        f"({'beats' if beats else 'DOES NOT beat'} naive)")
+    config, s = _choose(results)
+    write_report(results, start, end, products, config["name"])
+    log(f"chosen: {config['name']}")
     return _fit_and_register(rows, config, s, {
-        "kind": "initial", "promoted": True, "beats_naive": beats,
-        "scores": {n: round(r["summary"]["mape_model"], 3) for n, r in results.items()},
+        "kind": "initial", "promoted": True, "beats_climatology": config["name"] != "climatology",
+        "scores": {n: round(r["summary"]["pinball_model"], 4) for n, r in results.items()},
+        "climatology": round(s["pinball_climatology"], 4),
         "reason": f"best of {len(results)} candidates on a 26-week backtest"}, log)
 
 
@@ -96,9 +133,8 @@ def weekly(log=print):
     reg = registry.load()
     if not reg["champion"]:
         return initial(log)
-    _, products, rows = load_rows()
-    latest = str(rows["target_date"].max().date())
-    if latest == reg["champion"]["trained_until"]:
+    _, rows = load_rows()
+    if str(rows["target_date"].max().date()) == reg["champion"]["trained_until"]:
         registry.log_decision({"kind": "weekly", "promoted": False,
                                "reason": "no new data since last training"})
         log("no new data since the champion was trained; nothing to do")
@@ -106,21 +142,21 @@ def weekly(log=print):
 
     results, _, _ = evaluate(rows, models.CANDIDATES, weeks=8, log=log)
     champ_name = reg["champion"]["config"]["name"]
-    champ = results[champ_name]["summary"]
-    best = min(results, key=lambda n: results[n]["summary"]["mape_model"])
-    b = results[best]["summary"]
-    switch = (best != champ_name and b["mape_model"] < champ["mape_model"] * (1 - PROMOTE_MARGIN)
-              and b["mape_model"] < b["mape_naive"])
-    chosen = best if switch else champ_name
-    reason = (f"{best} beat {champ_name} ({b['mape_model']:.2f}% vs {champ['mape_model']:.2f}%)" if switch
-              else f"kept {champ_name}: best challenger {best} at {b['mape_model']:.2f}% vs champion "
-                   f"{champ['mape_model']:.2f}% (needs >= {PROMOTE_MARGIN:.0%} improvement)")
+    best_cfg, best = _choose(results)
+    champ = results[champ_name]["summary"] if champ_name in results else None
+    champ_score = champ["pinball_model"] if champ else best["pinball_climatology"]
+    new_score = best["pinball_model"] if best_cfg["name"] in results else best["pinball_climatology"]
+    switch = best_cfg["name"] != champ_name and new_score < champ_score * (1 - PROMOTE_MARGIN)
+    chosen = best_cfg if switch else reg["champion"]["config"]
+    reason = (f"{best_cfg['name']} beat {champ_name} ({new_score:.4f} vs {champ_score:.4f})" if switch
+              else f"kept {champ_name} ({champ_score:.4f}); best challenger {best_cfg['name']} at "
+                   f"{new_score:.4f} (needs >= {PROMOTE_MARGIN:.0%} improvement)")
     log(reason)
-    config = next(c for c in models.CANDIDATES if c["name"] == chosen)
-    return _fit_and_register(rows, config, results[chosen]["summary"], {
-        "kind": "weekly", "promoted": switch, "config_changed": switch,
-        "scores": {n: round(r["summary"]["mape_model"], 3) for n, r in results.items()},
-        "naive": round(champ["mape_naive"], 3), "reason": reason}, log)
+    summary = results[chosen["name"]]["summary"] if chosen["name"] in results else best
+    return _fit_and_register(rows, chosen, summary, {
+        "kind": "weekly", "promoted": switch,
+        "scores": {n: round(r["summary"]["pinball_model"], 4) for n, r in results.items()},
+        "climatology": round(best["pinball_climatology"], 4), "reason": reason}, log)
 
 
 def main():

@@ -35,27 +35,39 @@ def test_big_jump_is_a_warning(synthetic_prices, products):
     assert not hard and warn and "moved" in warn[0]
 
 
-def _tiny_booster():
+def _tiny_model():
     x = np.random.default_rng(0).normal(size=(50, 2))
-    return lgb.train({"verbose": -1}, lgb.Dataset(x, label=x[:, 0]), num_boost_round=2)
+    b = lgb.train({"verbose": -1}, lgb.Dataset(x, label=x[:, 0]), num_boost_round=2)
+    return {"boosters": {0.1: b, 0.5: b, 0.9: b}, "conformal": {7: 0.01, 28: 0.03}}
 
 
 def test_register_and_rollback(tmp_path, monkeypatch):
     monkeypatch.setattr(registry, "MODELS_DIR", str(tmp_path))
     monkeypatch.setattr(registry, "REGISTRY", str(tmp_path / "registry.json"))
     cfg = {"name": "test"}
-    v1 = registry.register(_tiny_booster(), cfg, "2026-01-01", {"mape_model": 2.0}, {"kind": "initial"})
-    v2 = registry.register(_tiny_booster(), cfg, "2026-01-08", {"mape_model": 1.9}, {"kind": "weekly"})
+    v1 = registry.register(_tiny_model(), cfg, "2026-01-01", {"pinball_model": 2.0}, {"kind": "initial"})
+    v2 = registry.register(_tiny_model(), cfg, "2026-01-08", {"pinball_model": 1.9}, {"kind": "weekly"})
     reg = registry.load()
     assert reg["champion"]["version"] == v2["version"] == 2
     assert reg["previous"]["version"] == v1["version"] == 1
-    booster, champ = registry.load_champion()
-    assert champ["version"] == 2 and booster.num_trees() == 2
+    model, champ = registry.load_champion()
+    assert champ["version"] == 2 and model["boosters"][0.5].num_trees() == 2
+    assert model["conformal"] == {7: 0.01, 28: 0.03}
 
     back = registry.rollback("test")
     assert back["version"] == 1 and registry.load()["previous"] is None
     assert registry.load()["decisions"][-1]["kind"] == "rollback"
     assert registry.rollback("again") is None
+
+
+def test_baseline_champion_has_no_model_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(registry, "MODELS_DIR", str(tmp_path))
+    monkeypatch.setattr(registry, "REGISTRY", str(tmp_path / "registry.json"))
+    entry = registry.register(None, {"name": "climatology"}, "2026-01-01", {"pinball_model": 2.0},
+                              {"kind": "initial"})
+    assert entry["file"] is None
+    model, champ = registry.load_champion()
+    assert model is None and champ["config"]["name"] == "climatology"
 
 
 def test_monitor_psi_detects_shift():

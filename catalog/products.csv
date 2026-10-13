@@ -59,3 +59,6 @@ egg_farm,Eggs (farm),ডিম (ফার্ম),groceries,hali (4 eggs)
 writing_paper,Writing paper (white),লেখার কাগজ (সাদা),stationery,dista (24 sheets)
 ms_rod_60,MS rod (60 grade),এম.এস রড (৬০ গ্রেড),construction,metric ton
 ms_rod_40,MS rod (40 grade),এম.এস রড (৪০ গ্রেড),construction,metric ton
+rice_bran_oil_1l,Rice bran oil (1 L bottle),রাইস ব্রান তেল (বোতল ১ লিটার),edible_oil,1 L bottle
+palm_olein_2l,Palm olein (2 L bottle),পাম অলিন (বোতল ২ লিটার),edible_oil,2 L bottle
+palm_olein_5l,Palm olein (5 L bottle),পাম অলিন (বোতল ৫ লিটার),edible_oil,5 L bottle
