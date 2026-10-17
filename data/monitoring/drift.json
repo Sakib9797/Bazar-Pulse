@@ -1,28 +1,28 @@
 {
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-17",
   "psi": {
     "construction": 0.664,
-    "edible_oil": 0.203,
-    "fish_meat": 0.215,
-    "flour": 0.904,
-    "groceries": 0.276,
+    "edible_oil": 0.185,
+    "fish_meat": 0.206,
+    "flour": 0.881,
+    "groceries": 0.303,
     "milk_powder": 0.372,
-    "pulses": 0.21,
-    "rice": 0.448,
-    "spices": 0.11,
-    "vegetables": 0.458
+    "pulses": 0.2,
+    "rice": 0.447,
+    "spices": 0.097,
+    "vegetables": 0.444
   },
   "thresholds": {
-    "construction": 2.017,
-    "edible_oil": 0.788,
-    "fish_meat": 0.913,
-    "flour": 1.169,
+    "construction": 1.933,
+    "edible_oil": 0.777,
+    "fish_meat": 0.905,
+    "flour": 1.243,
     "groceries": 1.456,
-    "milk_powder": 1.382,
-    "pulses": 0.976,
-    "rice": 1.196,
-    "spices": 0.617,
-    "vegetables": 1.403
+    "milk_powder": 1.293,
+    "pulses": 0.973,
+    "rice": 1.187,
+    "spices": 0.608,
+    "vegetables": 1.396
   },
   "drifted": [],
   "method": "PSI of 7-day changes, last 28 days vs previous year; threshold = 95% quantile of the category's own PSI over the last two years"

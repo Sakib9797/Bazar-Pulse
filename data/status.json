@@ -1,8 +1,8 @@
 {
-  "last_data_date": "2026-10-16",
-  "updated_at": "2026-10-16T13:09:00+00:00",
+  "last_data_date": "2026-10-17",
+  "updated_at": "2026-10-17T12:05:22+00:00",
   "products_today": 58,
-  "price_rows": 75163,
+  "price_rows": 75221,
   "model_version": 1,
   "model": "qlgbm_smooth",
   "health": "warming_up"
