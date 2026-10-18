@@ -1,5 +1,50 @@
 {
   "champion": {
+    "version": 2,
+    "config": {
+      "name": "qlgbm_smooth",
+      "learning_rate": 0.05,
+      "num_leaves": 15,
+      "min_data_in_leaf": 500,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.8,
+      "bagging_freq": 1,
+      "num_boost_round": 300,
+      "seed": 7
+    },
+    "file": "models/model_v0002.json.gz",
+    "trained_until": "2026-10-18",
+    "trained_at": "2026-10-18T16:18:32+00:00",
+    "backtest": {
+      "pinball_model": 2.2962329151157834,
+      "pinball_climatology": 2.436874758730931,
+      "coverage_model": 0.8621066216618684,
+      "coverage_climatology": 0.8662761838578378,
+      "width_model": 8.544994661707836,
+      "width_climatology": 9.904112392876788,
+      "mape_mid": 1.8378557516301792,
+      "mape_naive": 1.8371128860934112,
+      "rows": 10073,
+      "skill": 0.057714022073251936,
+      "products": 59,
+      "products_beating_climatology": 22,
+      "skill_h7": 0.01698793292986056,
+      "coverage_h7": 0.8661879895561357,
+      "skill_h14": 0.06232591982402569,
+      "coverage_h14": 0.8354243542435424,
+      "skill_h21": 0.0653632416617248,
+      "coverage_h21": 0.8692699490662139,
+      "skill_h28": 0.07182213708688001,
+      "coverage_h28": 0.8841996911991765
+    },
+    "conformal": {
+      "7": 0.00028642305409929504,
+      "14": 0.001056618338701815,
+      "21": 0.0005029653794933153,
+      "28": 0.0002965048247362649
+    }
+  },
+  "previous": {
     "version": 1,
     "config": {
       "name": "qlgbm_smooth",
@@ -44,7 +89,6 @@
       "28": 0.009119688800295778
     }
   },
-  "previous": null,
   "decisions": [
     {
       "kind": "initial",
@@ -59,6 +103,19 @@
       "reason": "best of 3 candidates on a 26-week backtest",
       "version": 1,
       "at": "2026-10-06T16:47:15+00:00"
+    },
+    {
+      "kind": "weekly",
+      "promoted": false,
+      "scores": {
+        "qlgbm": 2.3237,
+        "qlgbm_deep": 2.3706,
+        "qlgbm_smooth": 2.2962
+      },
+      "climatology": 2.4369,
+      "reason": "kept qlgbm_smooth (2.2962); best challenger qlgbm_smooth at 2.2962 (needs >= 2% improvement)",
+      "version": 2,
+      "at": "2026-10-18T16:18:32+00:00"
     }
   ]
 }
