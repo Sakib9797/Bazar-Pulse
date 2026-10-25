@@ -1,5 +1,50 @@
 {
   "champion": {
+    "version": 3,
+    "config": {
+      "name": "qlgbm_smooth",
+      "learning_rate": 0.05,
+      "num_leaves": 15,
+      "min_data_in_leaf": 500,
+      "feature_fraction": 0.8,
+      "bagging_fraction": 0.8,
+      "bagging_freq": 1,
+      "num_boost_round": 300,
+      "seed": 7
+    },
+    "file": "models/model_v0003.json.gz",
+    "trained_until": "2026-10-25",
+    "trained_at": "2026-10-25T16:57:43+00:00",
+    "backtest": {
+      "pinball_model": 2.286826289087301,
+      "pinball_climatology": 2.368577606378279,
+      "coverage_model": 0.865532903770994,
+      "coverage_climatology": 0.8791591845357558,
+      "width_model": 8.271625046947149,
+      "width_climatology": 9.826505540675209,
+      "mape_mid": 1.7917669635655382,
+      "mape_naive": 1.7932286387665874,
+      "rows": 9467,
+      "skill": 0.03451494140231337,
+      "products": 59,
+      "products_beating_climatology": 20,
+      "skill_h7": 0.020971999326931168,
+      "coverage_h7": 0.8701563562202583,
+      "skill_h14": 0.04693844063508179,
+      "coverage_h14": 0.8411901081916537,
+      "skill_h21": 0.03551232491422174,
+      "coverage_h21": 0.8671264367816092,
+      "skill_h28": 0.030503154948104738,
+      "coverage_h28": 0.8916004540295119
+    },
+    "conformal": {
+      "7": -9.897165671275273e-08,
+      "14": 0.0005321612638835593,
+      "21": -0.0001829374715108742,
+      "28": -6.744125641457332e-07
+    }
+  },
+  "previous": {
     "version": 2,
     "config": {
       "name": "qlgbm_smooth",
@@ -44,51 +89,6 @@
       "28": 0.0002965048247362649
     }
   },
-  "previous": {
-    "version": 1,
-    "config": {
-      "name": "qlgbm_smooth",
-      "learning_rate": 0.05,
-      "num_leaves": 15,
-      "min_data_in_leaf": 500,
-      "feature_fraction": 0.8,
-      "bagging_fraction": 0.8,
-      "bagging_freq": 1,
-      "num_boost_round": 300,
-      "seed": 7
-    },
-    "file": "models/model_v0001.json.gz",
-    "trained_until": "2026-10-06",
-    "trained_at": "2026-10-06T16:47:15+00:00",
-    "backtest": {
-      "pinball_model": 3.333615966200905,
-      "pinball_climatology": 3.441403850598662,
-      "coverage_model": 0.8134672179562906,
-      "coverage_climatology": 0.8196987595983461,
-      "width_model": 8.72577665498481,
-      "width_climatology": 10.561596687605675,
-      "mape_mid": 2.7843616066740595,
-      "mape_naive": 2.776360264320441,
-      "rows": 33860,
-      "skill": 0.03132090538545951,
-      "products": 59,
-      "products_beating_climatology": 28,
-      "skill_h7": 0.05214987410078853,
-      "coverage_h7": 0.8543009557679484,
-      "skill_h14": 0.028082092475054,
-      "coverage_h14": 0.8146262439250174,
-      "skill_h21": 0.02320970720043436,
-      "coverage_h21": 0.7950048262548263,
-      "skill_h28": 0.0300338609970634,
-      "coverage_h28": 0.7851739788199698
-    },
-    "conformal": {
-      "7": 7.676741576426462e-05,
-      "14": 0.0011058871722760678,
-      "21": 0.002342934676561403,
-      "28": 0.009119688800295778
-    }
-  },
   "decisions": [
     {
       "kind": "initial",
@@ -116,6 +116,19 @@
       "reason": "kept qlgbm_smooth (2.2962); best challenger qlgbm_smooth at 2.2962 (needs >= 2% improvement)",
       "version": 2,
       "at": "2026-10-18T16:18:32+00:00"
+    },
+    {
+      "kind": "weekly",
+      "promoted": false,
+      "scores": {
+        "qlgbm": 2.3033,
+        "qlgbm_deep": 2.3576,
+        "qlgbm_smooth": 2.2868
+      },
+      "climatology": 2.3686,
+      "reason": "kept qlgbm_smooth (2.2868); best challenger qlgbm_smooth at 2.2868 (needs >= 2% improvement)",
+      "version": 3,
+      "at": "2026-10-25T16:57:43+00:00"
     }
   ]
 }
