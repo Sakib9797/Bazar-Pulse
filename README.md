@@ -171,16 +171,6 @@ right after cloning. To rebuild everything from scratch: `python -m bazarpulse.i
 (about 3 hours, deliberately slow to be polite to TCB's server), `python -m bazarpulse.build
 --rebuild`, `python -m bazarpulse.train --initial`, `python -m bazarpulse.pipeline --refresh`.
 
-## Deploy (all free)
-
-| Piece | Where | How |
-|---|---|---|
-| Daily pipeline + weekly retrain | GitHub Actions | Configured in [`.github/workflows/`](.github/workflows/). Runs on schedule; "Run workflow" to trigger by hand |
-| Dashboard | Streamlit Community Cloud | New app → this repo, branch `main`, file `dashboard/streamlit_app.py` |
-| API | Render (free web service) | New Web Service → this repo → Docker, Dockerfile path `api/Dockerfile`. Redeploys on every push, so it picks up each day's data |
-| Alerts (optional) | Telegram | Repo secrets `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` |
-| Remote MLflow (optional) | DagsHub | Repo secrets `MLFLOW_TRACKING_URI`, `MLFLOW_TRACKING_USERNAME`, `MLFLOW_TRACKING_PASSWORD` |
-
 ## Limitations
 
 - TCB surveys a handful of Dhaka markets; prices elsewhere differ.
