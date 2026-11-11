@@ -1,28 +1,28 @@
 {
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-11",
   "psi": {
-    "construction": 1.36,
-    "edible_oil": 0.805,
-    "fish_meat": 0.625,
+    "construction": 1.352,
+    "edible_oil": 0.812,
+    "fish_meat": 0.61,
     "flour": 0.518,
-    "groceries": 0.771,
-    "milk_powder": 0.258,
-    "pulses": 0.607,
-    "rice": 0.451,
-    "spices": 0.135,
-    "vegetables": 0.28
+    "groceries": 0.815,
+    "milk_powder": 0.254,
+    "pulses": 0.643,
+    "rice": 0.461,
+    "spices": 0.12,
+    "vegetables": 0.315
   },
   "thresholds": {
-    "construction": 1.826,
-    "edible_oil": 0.793,
-    "fish_meat": 0.952,
-    "flour": 1.236,
-    "groceries": 1.347,
-    "milk_powder": 1.101,
-    "pulses": 1.037,
-    "rice": 1.169,
-    "spices": 0.498,
-    "vegetables": 1.301
+    "construction": 2.138,
+    "edible_oil": 0.745,
+    "fish_meat": 0.975,
+    "flour": 1.234,
+    "groceries": 1.355,
+    "milk_powder": 1.205,
+    "pulses": 0.925,
+    "rice": 1.212,
+    "spices": 0.639,
+    "vegetables": 1.36
   },
   "drifted": [
     "edible_oil"
