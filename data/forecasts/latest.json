@@ -1,9 +1,9 @@
 {
- "origin_date": "2026-11-16",
+ "origin_date": "2026-11-17",
  "model_version": 6,
  "model": "qlgbm_smooth",
  "coverage_target": 0.8,
- "generated_at": "2026-11-16T18:15:34+00:00",
+ "generated_at": "2026-11-17T19:30:41+00:00",
  "source": "Trading Corporation of Bangladesh (TCB) daily retail prices, Dhaka",
  "products": [
   {
@@ -13,39 +13,39 @@
    "category": "flour",
    "unit": "kg",
    "last_price": 50.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 48.74,
+     "low": 48.87,
      "mid": 50.0,
      "high": 51.23,
      "change_pct": 0.0,
      "upside_pct": 2.46
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 48.41,
+     "low": 48.43,
      "mid": 50.0,
-     "high": 51.74,
+     "high": 51.29,
      "change_pct": 0.0,
-     "upside_pct": 3.48
+     "upside_pct": 2.58
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 48.2,
+     "low": 48.23,
      "mid": 50.0,
      "high": 51.66,
      "change_pct": 0.0,
      "upside_pct": 3.32
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 48.11,
+     "low": 48.13,
      "mid": 50.0,
      "high": 51.84,
      "change_pct": 0.0,
@@ -60,43 +60,43 @@
    "category": "flour",
    "unit": "kg packet",
    "last_price": 67.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 66.58,
+     "low": 66.59,
      "mid": 67.5,
-     "high": 68.6,
+     "high": 68.64,
      "change_pct": 0.0,
-     "upside_pct": 1.63
+     "upside_pct": 1.69
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 66.33,
+     "low": 66.38,
      "mid": 67.5,
-     "high": 69.15,
+     "high": 68.98,
      "change_pct": 0.0,
-     "upside_pct": 2.44
+     "upside_pct": 2.19
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 66.21,
+     "low": 66.22,
      "mid": 67.5,
-     "high": 69.17,
+     "high": 69.21,
      "change_pct": 0.0,
-     "upside_pct": 2.47
+     "upside_pct": 2.53
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 66.09,
+     "low": 65.99,
      "mid": 67.5,
-     "high": 69.41,
+     "high": 69.43,
      "change_pct": 0.0,
-     "upside_pct": 2.83
+     "upside_pct": 2.86
     }
    ]
   },
@@ -107,43 +107,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 265.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 260.0,
+     "low": 260.51,
      "mid": 265.0,
-     "high": 272.95,
+     "high": 273.17,
      "change_pct": 0.0,
-     "upside_pct": 3.0
+     "upside_pct": 3.08
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 257.84,
+     "low": 258.3,
      "mid": 265.0,
-     "high": 277.13,
+     "high": 278.2,
      "change_pct": 0.0,
-     "upside_pct": 4.58
+     "upside_pct": 4.98
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 254.97,
+     "low": 255.45,
      "mid": 265.0,
-     "high": 281.39,
+     "high": 281.75,
      "change_pct": 0.0,
-     "upside_pct": 6.18
+     "upside_pct": 6.32
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 254.81,
+     "low": 255.22,
      "mid": 265.0,
-     "high": 283.49,
+     "high": 283.78,
      "change_pct": 0.0,
-     "upside_pct": 6.98
+     "upside_pct": 7.09
     }
    ]
   },
@@ -154,43 +154,43 @@
    "category": "fish_meat",
    "unit": "kg",
    "last_price": 825.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 816.29,
+     "low": 816.28,
      "mid": 825.0,
      "high": 825.34,
      "change_pct": 0.0,
      "upside_pct": 0.04
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 815.91,
+     "low": 814.24,
      "mid": 825.0,
-     "high": 825.01,
+     "high": 825.0,
      "change_pct": 0.0,
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 812.99,
+     "low": 813.1,
      "mid": 825.0,
      "high": 826.05,
      "change_pct": 0.0,
      "upside_pct": 0.13
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 813.02,
      "mid": 825.0,
-     "high": 828.73,
+     "high": 828.31,
      "change_pct": 0.0,
-     "upside_pct": 0.45
+     "upside_pct": 0.4
     }
    ]
   },
@@ -201,43 +201,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 5100.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 5035.81,
+     "low": 5033.76,
      "mid": 5100.0,
-     "high": 5183.2,
+     "high": 5191.43,
      "change_pct": 0.0,
-     "upside_pct": 1.63
+     "upside_pct": 1.79
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 5011.08,
+     "low": 4999.06,
      "mid": 5100.0,
-     "high": 5268.11,
+     "high": 5266.05,
      "change_pct": 0.0,
-     "upside_pct": 3.3
+     "upside_pct": 3.26
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 4964.46,
+     "low": 4962.71,
      "mid": 5100.0,
-     "high": 5316.33,
+     "high": 5326.63,
      "change_pct": 0.0,
-     "upside_pct": 4.24
+     "upside_pct": 4.44
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 4962.21,
+     "low": 4959.62,
      "mid": 5100.0,
-     "high": 5354.88,
+     "high": 5367.71,
      "change_pct": 0.0,
-     "upside_pct": 5.0
+     "upside_pct": 5.25
     }
    ]
   },
@@ -248,43 +248,43 @@
    "category": "fish_meat",
    "unit": "kg",
    "last_price": 185.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 178.21,
+     "low": 178.25,
      "mid": 185.02,
-     "high": 191.77,
+     "high": 192.1,
      "change_pct": 0.01,
-     "upside_pct": 3.66
+     "upside_pct": 3.84
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 175.05,
+     "low": 175.33,
      "mid": 185.13,
-     "high": 193.77,
+     "high": 193.31,
      "change_pct": 0.07,
-     "upside_pct": 4.74
+     "upside_pct": 4.49
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 173.04,
+     "low": 172.76,
      "mid": 185.13,
-     "high": 195.93,
+     "high": 195.95,
      "change_pct": 0.07,
-     "upside_pct": 5.91
+     "upside_pct": 5.92
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 171.87,
+     "low": 172.16,
      "mid": 185.13,
-     "high": 197.53,
+     "high": 197.41,
      "change_pct": 0.07,
-     "upside_pct": 6.77
+     "upside_pct": 6.71
     }
    ]
   },
@@ -295,10 +295,10 @@
    "category": "fish_meat",
    "unit": "kg",
    "last_price": 675.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 671.6,
      "mid": 675.0,
@@ -307,16 +307,16 @@
      "upside_pct": 2.07
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 666.32,
+     "low": 666.33,
      "mid": 675.0,
-     "high": 693.04,
+     "high": 692.04,
      "change_pct": 0.0,
-     "upside_pct": 2.67
+     "upside_pct": 2.52
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 657.74,
      "mid": 675.0,
@@ -325,13 +325,13 @@
      "upside_pct": 3.09
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 657.33,
      "mid": 675.0,
-     "high": 697.8,
+     "high": 694.92,
      "change_pct": 0.0,
-     "upside_pct": 3.38
+     "upside_pct": 2.95
     }
    ]
   },
@@ -342,10 +342,10 @@
    "category": "pulses",
    "unit": "kg",
    "last_price": 115.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 113.07,
      "mid": 115.0,
@@ -354,16 +354,16 @@
      "upside_pct": 2.29
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 111.71,
-     "mid": 115.0,
-     "high": 118.79,
-     "change_pct": 0.0,
-     "upside_pct": 3.3
+     "low": 111.28,
+     "mid": 114.98,
+     "high": 118.28,
+     "change_pct": -0.02,
+     "upside_pct": 2.85
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 110.31,
      "mid": 114.98,
@@ -372,13 +372,13 @@
      "upside_pct": 3.76
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 109.53,
      "mid": 114.98,
-     "high": 119.82,
+     "high": 119.79,
      "change_pct": -0.02,
-     "upside_pct": 4.19
+     "upside_pct": 4.17
     }
    ]
   },
@@ -389,43 +389,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 550.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 541.19,
+     "low": 543.16,
      "mid": 549.99,
-     "high": 553.25,
+     "high": 551.93,
      "change_pct": -0.0,
-     "upside_pct": 0.59
+     "upside_pct": 0.35
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 539.37,
+     "low": 540.64,
      "mid": 549.99,
-     "high": 555.97,
+     "high": 554.59,
      "change_pct": -0.0,
-     "upside_pct": 1.09
+     "upside_pct": 0.83
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 537.27,
+     "low": 538.52,
      "mid": 549.99,
-     "high": 557.84,
+     "high": 556.89,
      "change_pct": -0.0,
-     "upside_pct": 1.43
+     "upside_pct": 1.25
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 536.82,
+     "low": 537.93,
      "mid": 549.99,
-     "high": 560.87,
+     "high": 560.19,
      "change_pct": -0.0,
-     "upside_pct": 1.98
+     "upside_pct": 1.85
     }
    ]
   },
@@ -436,43 +436,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 1525.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 1516.08,
+     "low": 1516.41,
      "mid": 1525.0,
-     "high": 1538.0,
+     "high": 1538.8,
      "change_pct": 0.0,
-     "upside_pct": 0.85
+     "upside_pct": 0.9
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 1505.57,
+     "low": 1505.8,
      "mid": 1525.0,
-     "high": 1539.53,
+     "high": 1540.54,
      "change_pct": 0.0,
-     "upside_pct": 0.95
+     "upside_pct": 1.02
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 1496.15,
+     "low": 1496.84,
      "mid": 1525.0,
-     "high": 1545.66,
+     "high": 1548.38,
      "change_pct": 0.0,
-     "upside_pct": 1.35
+     "upside_pct": 1.53
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 1496.38,
+     "low": 1495.54,
      "mid": 1525.0,
-     "high": 1549.81,
+     "high": 1554.32,
      "change_pct": 0.0,
-     "upside_pct": 1.63
+     "upside_pct": 1.92
     }
    ]
   },
@@ -483,43 +483,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 225.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 222.24,
+     "low": 222.28,
      "mid": 225.0,
-     "high": 231.3,
+     "high": 231.82,
      "change_pct": 0.0,
-     "upside_pct": 2.8
+     "upside_pct": 3.03
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
      "low": 220.13,
      "mid": 225.0,
-     "high": 234.34,
+     "high": 234.6,
      "change_pct": 0.0,
-     "upside_pct": 4.15
+     "upside_pct": 4.27
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 217.5,
+     "low": 217.52,
      "mid": 225.0,
-     "high": 235.38,
+     "high": 235.9,
      "change_pct": 0.0,
-     "upside_pct": 4.61
+     "upside_pct": 4.84
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 217.5,
+     "low": 217.47,
      "mid": 225.0,
-     "high": 236.23,
+     "high": 236.68,
      "change_pct": 0.0,
-     "upside_pct": 4.99
+     "upside_pct": 5.19
     }
    ]
   },
@@ -529,44 +529,44 @@
    "name_bn": "শসা",
    "category": "vegetables",
    "unit": "kg",
-   "last_price": 70.0,
-   "last_seen": "2026-11-16",
+   "last_price": 65.0,
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 62.56,
-     "mid": 69.94,
-     "high": 81.97,
-     "change_pct": -0.09,
-     "upside_pct": 17.1
+     "low": 59.66,
+     "mid": 64.97,
+     "high": 79.66,
+     "change_pct": -0.05,
+     "upside_pct": 22.55
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 59.76,
-     "mid": 69.99,
-     "high": 84.91,
-     "change_pct": -0.01,
-     "upside_pct": 21.3
+     "low": 57.27,
+     "mid": 65.28,
+     "high": 82.4,
+     "change_pct": 0.43,
+     "upside_pct": 26.77
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 57.31,
-     "mid": 69.99,
-     "high": 86.7,
-     "change_pct": -0.01,
-     "upside_pct": 23.86
+     "low": 55.29,
+     "mid": 65.28,
+     "high": 84.35,
+     "change_pct": 0.43,
+     "upside_pct": 29.77
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 56.96,
-     "mid": 69.99,
-     "high": 85.62,
-     "change_pct": -0.01,
-     "upside_pct": 22.31
+     "low": 55.03,
+     "mid": 65.28,
+     "high": 83.69,
+     "change_pct": 0.43,
+     "upside_pct": 28.75
     }
    ]
   },
@@ -577,43 +577,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 615.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 596.4,
+     "low": 598.09,
      "mid": 615.0,
-     "high": 619.31,
+     "high": 620.28,
      "change_pct": 0.0,
-     "upside_pct": 0.7
+     "upside_pct": 0.86
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 590.05,
+     "low": 591.22,
      "mid": 615.0,
-     "high": 621.08,
+     "high": 619.88,
      "change_pct": 0.0,
-     "upside_pct": 0.99
+     "upside_pct": 0.79
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 574.89,
+     "low": 576.22,
      "mid": 615.0,
-     "high": 620.36,
+     "high": 621.76,
      "change_pct": 0.0,
-     "upside_pct": 0.87
+     "upside_pct": 1.1
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 566.84,
+     "low": 568.07,
      "mid": 615.0,
-     "high": 621.8,
+     "high": 623.18,
      "change_pct": 0.0,
-     "upside_pct": 1.11
+     "upside_pct": 1.33
     }
    ]
   },
@@ -624,10 +624,10 @@
    "category": "groceries",
    "unit": "kg",
    "last_price": 450.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 445.09,
      "mid": 450.0,
@@ -636,29 +636,29 @@
      "upside_pct": 0.8
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 443.13,
+     "low": 443.11,
      "mid": 450.0,
-     "high": 461.51,
+     "high": 459.85,
      "change_pct": 0.0,
-     "upside_pct": 2.56
+     "upside_pct": 2.19
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 439.68,
+     "low": 439.72,
      "mid": 450.0,
      "high": 465.7,
      "change_pct": 0.0,
      "upside_pct": 3.49
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 439.66,
      "mid": 450.0,
-     "high": 468.95,
+     "high": 468.96,
      "change_pct": 0.0,
      "upside_pct": 4.21
     }
@@ -671,43 +671,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 415.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 396.63,
+     "low": 395.96,
      "mid": 415.0,
-     "high": 418.05,
+     "high": 418.16,
      "change_pct": 0.0,
-     "upside_pct": 0.73
+     "upside_pct": 0.76
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 393.08,
+     "low": 392.42,
      "mid": 415.0,
-     "high": 418.34,
+     "high": 418.38,
      "change_pct": 0.0,
-     "upside_pct": 0.8
+     "upside_pct": 0.81
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 388.71,
+     "low": 388.06,
      "mid": 415.0,
-     "high": 419.3,
+     "high": 419.84,
      "change_pct": 0.0,
-     "upside_pct": 1.04
+     "upside_pct": 1.17
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 388.22,
+     "low": 387.5,
      "mid": 415.0,
-     "high": 420.31,
+     "high": 419.83,
      "change_pct": 0.0,
-     "upside_pct": 1.28
+     "upside_pct": 1.16
     }
    ]
   },
@@ -718,43 +718,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 350.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 332.15,
+     "low": 332.32,
      "mid": 350.37,
-     "high": 353.24,
+     "high": 353.29,
      "change_pct": 0.11,
-     "upside_pct": 0.93
+     "upside_pct": 0.94
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 328.33,
+     "low": 328.51,
      "mid": 350.37,
-     "high": 356.17,
+     "high": 357.04,
      "change_pct": 0.11,
-     "upside_pct": 1.76
+     "upside_pct": 2.01
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 325.35,
+     "low": 325.53,
      "mid": 350.37,
-     "high": 359.57,
+     "high": 359.75,
      "change_pct": 0.11,
-     "upside_pct": 2.73
+     "upside_pct": 2.79
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 325.0,
+     "low": 325.1,
      "mid": 350.37,
-     "high": 360.85,
+     "high": 361.06,
      "change_pct": 0.11,
-     "upside_pct": 3.1
+     "upside_pct": 3.16
     }
    ]
   },
@@ -765,43 +765,43 @@
    "category": "groceries",
    "unit": "hali (4 eggs)",
    "last_price": 45.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 43.55,
      "mid": 45.0,
-     "high": 46.59,
+     "high": 46.76,
      "change_pct": 0.0,
-     "upside_pct": 3.53
+     "upside_pct": 3.91
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 42.65,
+     "low": 41.99,
      "mid": 45.0,
-     "high": 47.27,
+     "high": 46.76,
      "change_pct": 0.0,
-     "upside_pct": 5.04
+     "upside_pct": 3.91
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 41.56,
      "mid": 45.0,
-     "high": 47.62,
+     "high": 47.61,
      "change_pct": 0.0,
-     "upside_pct": 5.82
+     "upside_pct": 5.8
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 41.49,
      "mid": 45.0,
-     "high": 48.07,
+     "high": 48.05,
      "change_pct": 0.0,
-     "upside_pct": 6.82
+     "upside_pct": 6.78
     }
    ]
   },
@@ -812,43 +812,43 @@
    "category": "vegetables",
    "unit": "kg",
    "last_price": 75.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 65.1,
+     "low": 66.3,
      "mid": 75.02,
-     "high": 101.51,
+     "high": 101.2,
      "change_pct": 0.03,
-     "upside_pct": 35.35
+     "upside_pct": 34.93
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 62.75,
+     "low": 63.87,
      "mid": 75.52,
-     "high": 105.93,
+     "high": 105.25,
      "change_pct": 0.69,
-     "upside_pct": 41.24
+     "upside_pct": 40.33
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 62.39,
+     "low": 63.45,
      "mid": 75.52,
-     "high": 110.05,
+     "high": 109.71,
      "change_pct": 0.69,
-     "upside_pct": 46.73
+     "upside_pct": 46.28
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 61.34,
+     "low": 62.42,
      "mid": 75.52,
-     "high": 110.91,
+     "high": 110.57,
      "change_pct": 0.69,
-     "upside_pct": 47.88
+     "upside_pct": 47.43
     }
    ]
   },
@@ -858,44 +858,44 @@
    "name_bn": "রসুন (আমদানি)",
    "category": "spices",
    "unit": "kg",
-   "last_price": 185.0,
-   "last_seen": "2026-11-16",
+   "last_price": 190.0,
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 175.74,
-     "mid": 185.0,
-     "high": 195.1,
+     "low": 180.5,
+     "mid": 190.0,
+     "high": 200.54,
      "change_pct": 0.0,
-     "upside_pct": 5.46
+     "upside_pct": 5.55
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 172.6,
-     "mid": 185.0,
-     "high": 199.08,
+     "low": 178.42,
+     "mid": 190.0,
+     "high": 206.53,
      "change_pct": 0.0,
-     "upside_pct": 7.61
+     "upside_pct": 8.7
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 170.63,
-     "mid": 185.0,
-     "high": 202.47,
+     "low": 176.7,
+     "mid": 190.0,
+     "high": 208.3,
      "change_pct": 0.0,
-     "upside_pct": 9.44
+     "upside_pct": 9.63
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 169.59,
-     "mid": 185.0,
-     "high": 203.87,
+     "low": 175.61,
+     "mid": 190.0,
+     "high": 209.77,
      "change_pct": 0.0,
-     "upside_pct": 10.2
+     "upside_pct": 10.41
     }
    ]
   },
@@ -906,43 +906,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 120.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 107.52,
+     "low": 108.38,
      "mid": 120.0,
-     "high": 125.59,
+     "high": 125.66,
      "change_pct": 0.0,
-     "upside_pct": 4.66
+     "upside_pct": 4.72
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 100.75,
+     "low": 101.56,
      "mid": 120.0,
-     "high": 127.48,
+     "high": 127.7,
      "change_pct": 0.0,
-     "upside_pct": 6.23
+     "upside_pct": 6.42
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 99.35,
+     "low": 100.16,
      "mid": 120.0,
-     "high": 128.61,
+     "high": 128.68,
      "change_pct": 0.0,
-     "upside_pct": 7.18
+     "upside_pct": 7.23
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 102.53,
+     "low": 102.99,
      "mid": 120.0,
-     "high": 129.67,
+     "high": 129.86,
      "change_pct": 0.0,
-     "upside_pct": 8.06
+     "upside_pct": 8.22
     }
    ]
   },
@@ -952,44 +952,44 @@
    "name_bn": "আদা (আমদানি)",
    "category": "spices",
    "unit": "kg",
-   "last_price": 170.0,
-   "last_seen": "2026-11-16",
+   "last_price": 180.0,
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 152.25,
-     "mid": 169.89,
-     "high": 180.77,
-     "change_pct": -0.06,
-     "upside_pct": 6.34
+     "low": 156.94,
+     "mid": 180.0,
+     "high": 191.98,
+     "change_pct": 0.0,
+     "upside_pct": 6.66
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 149.36,
-     "mid": 169.89,
-     "high": 184.58,
-     "change_pct": -0.06,
-     "upside_pct": 8.58
+     "low": 154.86,
+     "mid": 180.0,
+     "high": 195.14,
+     "change_pct": 0.0,
+     "upside_pct": 8.41
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 146.58,
-     "mid": 169.89,
-     "high": 186.3,
-     "change_pct": -0.06,
-     "upside_pct": 9.59
+     "low": 151.8,
+     "mid": 180.0,
+     "high": 196.03,
+     "change_pct": 0.0,
+     "upside_pct": 8.91
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 144.44,
-     "mid": 169.89,
-     "high": 187.74,
-     "change_pct": -0.06,
-     "upside_pct": 10.44
+     "low": 149.15,
+     "mid": 180.0,
+     "high": 197.4,
+     "change_pct": 0.0,
+     "upside_pct": 9.67
     }
    ]
   },
@@ -1000,43 +1000,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 135.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 125.22,
-     "mid": 134.99,
-     "high": 147.37,
-     "change_pct": -0.01,
-     "upside_pct": 9.16
+     "low": 125.25,
+     "mid": 135.0,
+     "high": 148.04,
+     "change_pct": 0.0,
+     "upside_pct": 9.66
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 121.58,
-     "mid": 135.43,
-     "high": 153.21,
-     "change_pct": 0.32,
-     "upside_pct": 13.49
+     "low": 121.7,
+     "mid": 135.42,
+     "high": 152.51,
+     "change_pct": 0.31,
+     "upside_pct": 12.97
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 119.31,
-     "mid": 135.56,
-     "high": 154.35,
-     "change_pct": 0.41,
-     "upside_pct": 14.33
+     "low": 117.89,
+     "mid": 135.48,
+     "high": 154.98,
+     "change_pct": 0.36,
+     "upside_pct": 14.8
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 117.68,
-     "mid": 135.56,
-     "high": 155.47,
-     "change_pct": 0.41,
-     "upside_pct": 15.16
+     "low": 116.83,
+     "mid": 135.48,
+     "high": 155.74,
+     "change_pct": 0.36,
+     "upside_pct": 15.36
     }
    ]
   },
@@ -1047,43 +1047,43 @@
    "category": "vegetables",
    "unit": "kg",
    "last_price": 90.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 78.16,
+     "low": 79.59,
      "mid": 89.96,
-     "high": 126.79,
+     "high": 126.73,
      "change_pct": -0.04,
-     "upside_pct": 40.88
+     "upside_pct": 40.81
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 75.52,
+     "low": 76.82,
      "mid": 90.56,
-     "high": 133.48,
+     "high": 132.57,
      "change_pct": 0.62,
-     "upside_pct": 48.31
+     "upside_pct": 47.3
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 73.34,
+     "low": 74.59,
      "mid": 90.56,
-     "high": 139.29,
+     "high": 139.23,
      "change_pct": 0.62,
-     "upside_pct": 54.77
+     "upside_pct": 54.7
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 73.02,
+     "low": 74.32,
      "mid": 90.56,
-     "high": 140.39,
+     "high": 140.33,
      "change_pct": 0.62,
-     "upside_pct": 55.99
+     "upside_pct": 55.92
     }
    ]
   },
@@ -1094,43 +1094,43 @@
    "category": "fish_meat",
    "unit": "kg",
    "last_price": 1350.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 1338.6,
+     "low": 1341.69,
      "mid": 1350.0,
      "high": 1360.36,
      "change_pct": 0.0,
      "upside_pct": 0.77
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 1335.78,
+     "low": 1339.05,
      "mid": 1350.0,
-     "high": 1377.85,
+     "high": 1374.53,
      "change_pct": 0.0,
-     "upside_pct": 2.06
+     "upside_pct": 1.82
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 1329.81,
+     "low": 1332.87,
      "mid": 1350.0,
      "high": 1387.37,
      "change_pct": 0.0,
      "upside_pct": 2.77
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 1328.98,
+     "low": 1332.04,
      "mid": 1350.0,
-     "high": 1392.74,
+     "high": 1400.33,
      "change_pct": 0.0,
-     "upside_pct": 3.17
+     "upside_pct": 3.73
     }
    ]
   },
@@ -1141,43 +1141,43 @@
    "category": "vegetables",
    "unit": "hali (4 pcs)",
    "last_price": 25.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 23.0,
+     "low": 23.21,
      "mid": 25.02,
-     "high": 26.13,
+     "high": 26.19,
      "change_pct": 0.08,
-     "upside_pct": 4.52
+     "upside_pct": 4.76
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 22.35,
+     "low": 22.58,
      "mid": 25.02,
-     "high": 26.81,
+     "high": 26.78,
      "change_pct": 0.08,
-     "upside_pct": 7.24
+     "upside_pct": 7.12
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 21.92,
+     "low": 22.11,
      "mid": 25.02,
-     "high": 27.19,
+     "high": 27.25,
      "change_pct": 0.08,
-     "upside_pct": 8.76
+     "upside_pct": 9.0
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 21.82,
+     "low": 22.0,
      "mid": 25.02,
-     "high": 27.12,
+     "high": 27.18,
      "change_pct": 0.08,
-     "upside_pct": 8.48
+     "upside_pct": 8.72
     }
    ]
   },
@@ -1188,10 +1188,10 @@
    "category": "pulses",
    "unit": "kg",
    "last_price": 67.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 65.29,
      "mid": 67.5,
@@ -1200,31 +1200,31 @@
      "upside_pct": 0.0
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 64.77,
+     "low": 64.53,
      "mid": 67.5,
      "high": 67.5,
      "change_pct": 0.0,
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 63.92,
+     "low": 64.39,
      "mid": 67.5,
-     "high": 67.64,
+     "high": 67.68,
      "change_pct": 0.0,
-     "upside_pct": 0.21
+     "upside_pct": 0.27
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 64.29,
      "mid": 67.5,
-     "high": 67.65,
+     "high": 67.94,
      "change_pct": 0.0,
-     "upside_pct": 0.22
+     "upside_pct": 0.65
     }
    ]
   },
@@ -1235,10 +1235,10 @@
    "category": "pulses",
    "unit": "kg",
    "last_price": 95.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 94.59,
      "mid": 95.0,
@@ -1247,25 +1247,25 @@
      "upside_pct": 0.07
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 93.87,
-     "mid": 95.0,
-     "high": 95.04,
-     "change_pct": 0.0,
-     "upside_pct": 0.04
-    },
-    {
-     "date": "2026-12-07",
-     "weeks": 3,
-     "low": 92.76,
+     "low": 93.72,
      "mid": 95.0,
      "high": 95.0,
      "change_pct": 0.0,
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-08",
+     "weeks": 3,
+     "low": 92.87,
+     "mid": 95.0,
+     "high": 95.0,
+     "change_pct": 0.0,
+     "upside_pct": 0.0
+    },
+    {
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 92.83,
      "mid": 95.0,
@@ -1282,10 +1282,10 @@
    "category": "pulses",
    "unit": "kg",
    "last_price": 117.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 116.04,
      "mid": 117.5,
@@ -1294,31 +1294,31 @@
      "upside_pct": 0.43
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
      "low": 116.16,
      "mid": 117.5,
-     "high": 118.7,
+     "high": 118.27,
      "change_pct": 0.0,
-     "upside_pct": 1.02
+     "upside_pct": 0.66
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 115.55,
      "mid": 117.5,
-     "high": 118.69,
+     "high": 118.68,
      "change_pct": 0.0,
-     "upside_pct": 1.01
+     "upside_pct": 1.0
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 115.48,
      "mid": 117.5,
-     "high": 118.93,
+     "high": 118.9,
      "change_pct": 0.0,
-     "upside_pct": 1.22
+     "upside_pct": 1.19
     }
    ]
   },
@@ -1329,43 +1329,43 @@
    "category": "pulses",
    "unit": "kg",
    "last_price": 155.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 151.98,
      "mid": 155.0,
-     "high": 156.05,
+     "high": 156.04,
      "change_pct": 0.0,
-     "upside_pct": 0.68
+     "upside_pct": 0.67
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 151.61,
+     "low": 151.63,
      "mid": 155.0,
-     "high": 156.14,
+     "high": 156.45,
      "change_pct": 0.0,
-     "upside_pct": 0.74
+     "upside_pct": 0.94
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 151.32,
+     "low": 151.35,
      "mid": 155.0,
-     "high": 156.53,
+     "high": 156.96,
      "change_pct": 0.0,
-     "upside_pct": 0.99
+     "upside_pct": 1.26
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 151.26,
      "mid": 155.0,
-     "high": 156.88,
+     "high": 156.93,
      "change_pct": 0.0,
-     "upside_pct": 1.21
+     "upside_pct": 1.25
     }
    ]
   },
@@ -1376,10 +1376,10 @@
    "category": "pulses",
    "unit": "kg",
    "last_price": 150.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 149.05,
      "mid": 150.0,
@@ -1388,16 +1388,16 @@
      "upside_pct": 0.12
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 147.56,
+     "low": 147.76,
      "mid": 150.0,
-     "high": 150.36,
+     "high": 150.27,
      "change_pct": 0.0,
-     "upside_pct": 0.24
+     "upside_pct": 0.18
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 146.5,
      "mid": 150.0,
@@ -1406,13 +1406,13 @@
      "upside_pct": 0.73
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 146.4,
      "mid": 150.0,
-     "high": 151.66,
+     "high": 152.48,
      "change_pct": 0.0,
-     "upside_pct": 1.11
+     "upside_pct": 1.65
     }
    ]
   },
@@ -1423,43 +1423,43 @@
    "category": "flour",
    "unit": "kg",
    "last_price": 70.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 68.07,
+     "low": 68.09,
      "mid": 70.0,
      "high": 72.93,
      "change_pct": 0.0,
      "upside_pct": 4.19
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 67.64,
+     "low": 67.71,
      "mid": 70.0,
-     "high": 74.45,
+     "high": 74.22,
      "change_pct": 0.0,
-     "upside_pct": 6.36
+     "upside_pct": 6.03
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 67.33,
+     "low": 67.36,
      "mid": 70.0,
      "high": 74.82,
      "change_pct": 0.0,
      "upside_pct": 6.89
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 67.07,
+     "low": 66.97,
      "mid": 70.0,
-     "high": 75.02,
+     "high": 75.01,
      "change_pct": 0.0,
-     "upside_pct": 7.17
+     "upside_pct": 7.16
     }
    ]
   },
@@ -1470,10 +1470,10 @@
    "category": "flour",
    "unit": "kg packet",
    "last_price": 87.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 87.05,
      "mid": 87.5,
@@ -1482,16 +1482,16 @@
      "upside_pct": 2.18
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
      "low": 86.61,
      "mid": 87.5,
-     "high": 90.67,
+     "high": 90.39,
      "change_pct": 0.0,
-     "upside_pct": 3.62
+     "upside_pct": 3.3
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 86.28,
      "mid": 87.5,
@@ -1500,13 +1500,13 @@
      "upside_pct": 3.51
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 86.07,
      "mid": 87.5,
-     "high": 90.94,
+     "high": 90.93,
      "change_pct": 0.0,
-     "upside_pct": 3.93
+     "upside_pct": 3.92
     }
    ]
   },
@@ -1517,28 +1517,28 @@
    "category": "milk_powder",
    "unit": "1 kg packet",
    "last_price": 900.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 899.95,
+     "low": 899.93,
      "mid": 900.0,
      "high": 900.11,
      "change_pct": 0.0,
      "upside_pct": 0.01
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
      "low": 900.0,
      "mid": 900.0,
-     "high": 900.0,
+     "high": 900.07,
      "change_pct": 0.0,
-     "upside_pct": 0.0
+     "upside_pct": 0.01
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 900.0,
      "mid": 900.0,
@@ -1547,7 +1547,7 @@
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 900.0,
      "mid": 900.0,
@@ -1564,43 +1564,43 @@
    "category": "milk_powder",
    "unit": "1 kg packet",
    "last_price": 925.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 922.1,
+     "low": 922.14,
      "mid": 925.0,
      "high": 927.72,
      "change_pct": 0.0,
      "upside_pct": 0.29
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 922.45,
+     "low": 922.52,
      "mid": 925.0,
-     "high": 928.01,
+     "high": 926.85,
      "change_pct": 0.0,
-     "upside_pct": 0.33
+     "upside_pct": 0.2
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 923.37,
+     "low": 923.43,
      "mid": 925.0,
      "high": 926.41,
      "change_pct": 0.0,
      "upside_pct": 0.15
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 923.46,
+     "low": 923.48,
      "mid": 925.0,
-     "high": 927.43,
+     "high": 927.28,
      "change_pct": 0.0,
-     "upside_pct": 0.26
+     "upside_pct": 0.25
     }
    ]
   },
@@ -1611,37 +1611,37 @@
    "category": "milk_powder",
    "unit": "1 kg packet",
    "last_price": 910.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 909.94,
+     "low": 909.96,
      "mid": 910.0,
      "high": 910.09,
      "change_pct": 0.0,
      "upside_pct": 0.01
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 909.39,
+     "low": 907.53,
      "mid": 910.0,
-     "high": 910.05,
+     "high": 910.08,
      "change_pct": 0.0,
      "upside_pct": 0.01
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 907.98,
+     "low": 908.0,
      "mid": 910.0,
      "high": 910.0,
      "change_pct": 0.0,
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 908.09,
      "mid": 910.0,
@@ -1658,43 +1658,43 @@
    "category": "milk_powder",
    "unit": "1 kg packet",
    "last_price": 915.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 913.61,
+     "low": 913.63,
      "mid": 915.0,
      "high": 922.01,
      "change_pct": 0.0,
      "upside_pct": 0.77
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 913.88,
+     "low": 912.61,
      "mid": 915.0,
-     "high": 922.2,
+     "high": 921.37,
      "change_pct": 0.0,
-     "upside_pct": 0.79
+     "upside_pct": 0.7
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 913.05,
+     "low": 913.1,
      "mid": 915.0,
      "high": 920.72,
      "change_pct": 0.0,
      "upside_pct": 0.63
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 913.45,
      "mid": 915.0,
-     "high": 921.71,
+     "high": 921.56,
      "change_pct": 0.0,
-     "upside_pct": 0.73
+     "upside_pct": 0.72
     }
    ]
   },
@@ -1705,43 +1705,43 @@
    "category": "construction",
    "unit": "metric ton",
    "last_price": 87000.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 85976.37,
+     "low": 86006.82,
      "mid": 87000.0,
      "high": 88512.91,
      "change_pct": 0.0,
      "upside_pct": 1.74
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 85356.35,
+     "low": 85137.02,
      "mid": 87000.0,
-     "high": 89158.28,
+     "high": 88620.31,
      "change_pct": 0.0,
-     "upside_pct": 2.48
+     "upside_pct": 1.86
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 84796.58,
+     "low": 84802.97,
      "mid": 87039.15,
      "high": 89159.81,
      "change_pct": 0.04,
      "upside_pct": 2.48
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 84636.86,
      "mid": 87039.15,
-     "high": 89439.19,
+     "high": 89576.61,
      "change_pct": 0.04,
-     "upside_pct": 2.8
+     "upside_pct": 2.96
     }
    ]
   },
@@ -1752,43 +1752,43 @@
    "category": "construction",
    "unit": "metric ton",
    "last_price": 91250.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 90290.5,
+     "low": 90310.79,
      "mid": 91250.0,
      "high": 91437.51,
      "change_pct": 0.0,
      "upside_pct": 0.21
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 89601.59,
+     "low": 89185.62,
      "mid": 91250.0,
-     "high": 92004.82,
+     "high": 91545.29,
      "change_pct": 0.0,
-     "upside_pct": 0.83
+     "upside_pct": 0.32
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 88889.19,
-     "mid": 91291.07,
+     "low": 88895.88,
+     "mid": 91250.0,
      "high": 91911.74,
-     "change_pct": 0.05,
+     "change_pct": 0.0,
      "upside_pct": 0.73
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 88731.86,
-     "mid": 91291.07,
-     "high": 92620.87,
-     "change_pct": 0.05,
-     "upside_pct": 1.5
+     "mid": 91250.0,
+     "high": 92626.93,
+     "change_pct": 0.0,
+     "upside_pct": 1.51
     }
    ]
   },
@@ -1799,28 +1799,28 @@
    "category": "fish_meat",
    "unit": "kg",
    "last_price": 1275.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 1254.58,
      "mid": 1275.0,
-     "high": 1277.71,
+     "high": 1277.67,
      "change_pct": 0.0,
      "upside_pct": 0.21
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 1247.12,
+     "low": 1244.57,
      "mid": 1275.0,
-     "high": 1279.18,
+     "high": 1276.28,
      "change_pct": 0.0,
-     "upside_pct": 0.33
+     "upside_pct": 0.1
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 1238.03,
      "mid": 1275.0,
@@ -1829,13 +1829,13 @@
      "upside_pct": 0.78
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 1237.36,
      "mid": 1275.0,
-     "high": 1289.8,
+     "high": 1291.78,
      "change_pct": 0.0,
-     "upside_pct": 1.16
+     "upside_pct": 1.32
     }
    ]
   },
@@ -1846,43 +1846,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 50.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 46.05,
+     "low": 46.06,
      "mid": 50.0,
-     "high": 59.89,
+     "high": 59.9,
      "change_pct": 0.0,
-     "upside_pct": 19.78
+     "upside_pct": 19.8
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 44.87,
+     "low": 44.14,
      "mid": 50.0,
-     "high": 62.54,
+     "high": 61.98,
      "change_pct": 0.0,
-     "upside_pct": 25.08
+     "upside_pct": 23.96
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 43.54,
+     "low": 43.55,
      "mid": 50.32,
-     "high": 64.62,
+     "high": 63.96,
      "change_pct": 0.64,
-     "upside_pct": 29.24
+     "upside_pct": 27.92
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 42.43,
+     "low": 42.2,
      "mid": 50.0,
-     "high": 64.07,
+     "high": 61.29,
      "change_pct": 0.0,
-     "upside_pct": 28.14
+     "upside_pct": 22.58
     }
    ]
   },
@@ -1893,43 +1893,43 @@
    "category": "edible_oil",
    "unit": "litre",
    "last_price": 171.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 169.96,
+     "low": 169.97,
      "mid": 171.8,
-     "high": 172.82,
+     "high": 172.83,
      "change_pct": 0.17,
-     "upside_pct": 0.77
+     "upside_pct": 0.78
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 169.66,
-     "mid": 171.8,
-     "high": 173.78,
-     "change_pct": 0.17,
-     "upside_pct": 1.33
+     "low": 169.7,
+     "mid": 171.78,
+     "high": 173.27,
+     "change_pct": 0.16,
+     "upside_pct": 1.03
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 169.62,
+     "low": 169.65,
      "mid": 171.78,
      "high": 174.2,
      "change_pct": 0.16,
      "upside_pct": 1.57
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 169.56,
+     "low": 169.54,
      "mid": 171.78,
-     "high": 174.99,
+     "high": 175.0,
      "change_pct": 0.16,
-     "upside_pct": 2.03
+     "upside_pct": 2.04
     }
    ]
   },
@@ -1940,10 +1940,10 @@
    "category": "edible_oil",
    "unit": "litre",
    "last_price": 178.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 177.33,
      "mid": 178.02,
@@ -1952,31 +1952,31 @@
      "upside_pct": 1.14
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 176.97,
+     "low": 176.96,
      "mid": 178.03,
-     "high": 180.56,
+     "high": 179.92,
      "change_pct": 0.02,
-     "upside_pct": 1.44
+     "upside_pct": 1.08
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 176.97,
+     "low": 176.99,
      "mid": 178.03,
      "high": 180.68,
      "change_pct": 0.02,
      "upside_pct": 1.51
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 176.99,
+     "low": 176.96,
      "mid": 178.03,
-     "high": 181.22,
+     "high": 181.19,
      "change_pct": 0.02,
-     "upside_pct": 1.81
+     "upside_pct": 1.79
     }
    ]
   },
@@ -1987,39 +1987,39 @@
    "category": "vegetables",
    "unit": "kg",
    "last_price": 27.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 26.05,
+     "low": 26.23,
      "mid": 27.53,
      "high": 29.9,
      "change_pct": 0.11,
      "upside_pct": 8.73
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 25.61,
+     "low": 25.76,
      "mid": 27.58,
-     "high": 30.86,
+     "high": 30.7,
      "change_pct": 0.29,
-     "upside_pct": 12.22
+     "upside_pct": 11.64
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 24.41,
+     "low": 24.43,
      "mid": 27.58,
      "high": 32.02,
      "change_pct": 0.29,
      "upside_pct": 16.44
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 23.98,
+     "low": 24.12,
      "mid": 27.57,
      "high": 31.18,
      "change_pct": 0.25,
@@ -2034,43 +2034,43 @@
    "category": "rice",
    "unit": "kg",
    "last_price": 187.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 187.03,
      "mid": 187.5,
-     "high": 190.65,
+     "high": 190.63,
      "change_pct": 0.0,
+     "upside_pct": 1.67
+    },
+    {
+     "date": "2026-12-01",
+     "weeks": 2,
+     "low": 186.4,
+     "mid": 188.01,
+     "high": 190.65,
+     "change_pct": 0.27,
      "upside_pct": 1.68
     },
     {
-     "date": "2026-11-30",
-     "weeks": 2,
-     "low": 186.68,
-     "mid": 188.04,
-     "high": 191.08,
-     "change_pct": 0.29,
-     "upside_pct": 1.91
-    },
-    {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 186.33,
+     "low": 186.34,
      "mid": 188.01,
-     "high": 192.95,
+     "high": 192.92,
      "change_pct": 0.27,
-     "upside_pct": 2.91
+     "upside_pct": 2.89
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 186.26,
      "mid": 188.01,
-     "high": 193.18,
+     "high": 193.16,
      "change_pct": 0.27,
-     "upside_pct": 3.03
+     "upside_pct": 3.02
     }
    ]
   },
@@ -2081,43 +2081,43 @@
    "category": "rice",
    "unit": "kg packet",
    "last_price": 215.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 214.71,
      "mid": 215.35,
-     "high": 215.7,
+     "high": 215.35,
      "change_pct": 0.16,
+     "upside_pct": 0.16
+    },
+    {
+     "date": "2026-12-01",
+     "weeks": 2,
+     "low": 213.58,
+     "mid": 215.5,
+     "high": 215.72,
+     "change_pct": 0.23,
      "upside_pct": 0.33
     },
     {
-     "date": "2026-11-30",
-     "weeks": 2,
-     "low": 213.17,
-     "mid": 215.5,
-     "high": 216.26,
-     "change_pct": 0.23,
-     "upside_pct": 0.59
-    },
-    {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 212.96,
      "mid": 215.5,
-     "high": 216.24,
+     "high": 215.78,
      "change_pct": 0.23,
-     "upside_pct": 0.58
+     "upside_pct": 0.36
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 212.45,
      "mid": 215.5,
-     "high": 216.19,
+     "high": 215.74,
      "change_pct": 0.23,
-     "upside_pct": 0.55
+     "upside_pct": 0.34
     }
    ]
   },
@@ -2128,28 +2128,28 @@
    "category": "edible_oil",
    "unit": "5 L bottle",
    "last_price": 1117.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 1116.32,
+     "low": 1116.34,
      "mid": 1117.5,
      "high": 1117.5,
      "change_pct": 0.0,
      "upside_pct": 0.0
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 1117.48,
+     "low": 1115.93,
      "mid": 1117.5,
      "high": 1117.5,
      "change_pct": 0.0,
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 1116.72,
      "mid": 1117.5,
@@ -2158,9 +2158,9 @@
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 1117.5,
+     "low": 1117.45,
      "mid": 1117.5,
      "high": 1117.54,
      "change_pct": 0.0,
@@ -2174,44 +2174,44 @@
    "name_bn": "চাল মোটা (স্বর্ণা/চায়না ইরি)",
    "category": "rice",
    "unit": "kg",
-   "last_price": 54.0,
-   "last_seen": "2026-11-16",
+   "last_price": 52.5,
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 52.7,
-     "mid": 53.96,
-     "high": 54.29,
-     "change_pct": -0.07,
-     "upside_pct": 0.54
+     "low": 51.89,
+     "mid": 52.5,
+     "high": 53.48,
+     "change_pct": 0.0,
+     "upside_pct": 1.87
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 52.31,
-     "mid": 53.96,
-     "high": 54.55,
-     "change_pct": -0.07,
-     "upside_pct": 1.02
+     "low": 51.43,
+     "mid": 52.5,
+     "high": 53.51,
+     "change_pct": 0.0,
+     "upside_pct": 1.92
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 52.18,
-     "mid": 53.96,
-     "high": 54.48,
-     "change_pct": -0.07,
-     "upside_pct": 0.89
+     "low": 51.19,
+     "mid": 52.5,
+     "high": 53.67,
+     "change_pct": 0.0,
+     "upside_pct": 2.23
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 52.1,
-     "mid": 53.96,
-     "high": 54.7,
-     "change_pct": -0.07,
-     "upside_pct": 1.3
+     "low": 51.1,
+     "mid": 52.5,
+     "high": 53.96,
+     "change_pct": 0.0,
+     "upside_pct": 2.78
     }
    ]
   },
@@ -2222,43 +2222,43 @@
    "category": "rice",
    "unit": "kg",
    "last_price": 80.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 78.85,
+     "low": 78.87,
      "mid": 80.0,
-     "high": 80.51,
+     "high": 80.63,
      "change_pct": 0.0,
-     "upside_pct": 0.64
+     "upside_pct": 0.79
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 78.67,
+     "low": 78.49,
      "mid": 80.0,
-     "high": 81.58,
+     "high": 81.0,
      "change_pct": 0.0,
-     "upside_pct": 1.97
+     "upside_pct": 1.25
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 78.55,
+     "low": 78.57,
      "mid": 80.0,
-     "high": 81.25,
+     "high": 81.31,
      "change_pct": 0.0,
-     "upside_pct": 1.56
+     "upside_pct": 1.64
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 78.45,
      "mid": 80.0,
-     "high": 81.69,
+     "high": 82.24,
      "change_pct": 0.0,
-     "upside_pct": 2.11
+     "upside_pct": 2.8
     }
    ]
   },
@@ -2269,43 +2269,43 @@
    "category": "rice",
    "unit": "kg",
    "last_price": 60.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 59.85,
      "mid": 60.5,
-     "high": 61.26,
+     "high": 60.96,
      "change_pct": 0.0,
-     "upside_pct": 1.26
+     "upside_pct": 0.76
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 59.48,
-     "mid": 60.5,
-     "high": 61.64,
-     "change_pct": 0.0,
-     "upside_pct": 1.88
+     "low": 59.44,
+     "mid": 60.49,
+     "high": 61.19,
+     "change_pct": -0.02,
+     "upside_pct": 1.14
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 59.21,
+     "low": 59.16,
      "mid": 60.49,
-     "high": 61.89,
+     "high": 61.52,
      "change_pct": -0.02,
-     "upside_pct": 2.3
+     "upside_pct": 1.69
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 59.14,
+     "low": 59.09,
      "mid": 60.49,
-     "high": 62.02,
+     "high": 61.67,
      "change_pct": -0.02,
-     "upside_pct": 2.51
+     "upside_pct": 1.93
     }
    ]
   },
@@ -2316,10 +2316,10 @@
    "category": "fish_meat",
    "unit": "kg",
    "last_price": 375.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 371.97,
      "mid": 375.0,
@@ -2328,25 +2328,25 @@
      "upside_pct": 0.08
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 369.61,
+     "low": 368.85,
      "mid": 375.0,
-     "high": 376.65,
+     "high": 376.2,
      "change_pct": 0.0,
-     "upside_pct": 0.44
+     "upside_pct": 0.32
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 366.2,
+     "low": 366.25,
      "mid": 375.0,
      "high": 377.81,
      "change_pct": 0.0,
      "upside_pct": 0.75
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 366.03,
      "mid": 375.0,
@@ -2363,10 +2363,10 @@
    "category": "groceries",
    "unit": "kg packet",
    "last_price": 41.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 40.89,
      "mid": 41.0,
@@ -2375,16 +2375,16 @@
      "upside_pct": 0.05
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 40.89,
+     "low": 40.9,
      "mid": 41.0,
      "high": 41.0,
      "change_pct": 0.0,
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 40.91,
      "mid": 41.0,
@@ -2393,7 +2393,7 @@
      "upside_pct": 0.0
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 40.92,
      "mid": 41.0,
@@ -2410,43 +2410,43 @@
    "category": "edible_oil",
    "unit": "1 L bottle",
    "last_price": 204.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 204.04,
+     "low": 204.08,
      "mid": 204.52,
      "high": 206.12,
      "change_pct": 0.25,
      "upside_pct": 1.04
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
      "low": 204.11,
      "mid": 204.52,
-     "high": 206.74,
+     "high": 206.48,
      "change_pct": 0.25,
-     "upside_pct": 1.34
+     "upside_pct": 1.22
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 204.32,
+     "low": 204.33,
      "mid": 204.89,
      "high": 208.77,
      "change_pct": 0.44,
      "upside_pct": 2.34
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 204.39,
+     "low": 204.36,
      "mid": 204.89,
-     "high": 209.06,
+     "high": 209.33,
      "change_pct": 0.44,
-     "upside_pct": 2.48
+     "upside_pct": 2.61
     }
    ]
   },
@@ -2457,43 +2457,43 @@
    "category": "edible_oil",
    "unit": "2 L bottle",
    "last_price": 410.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 410.01,
+     "low": 410.1,
      "mid": 410.81,
      "high": 413.31,
      "change_pct": 0.2,
      "upside_pct": 0.81
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 410.5,
+     "low": 410.56,
      "mid": 410.81,
-     "high": 414.24,
+     "high": 414.95,
      "change_pct": 0.2,
-     "upside_pct": 1.03
+     "upside_pct": 1.21
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 410.98,
+     "low": 411.01,
      "mid": 411.45,
      "high": 416.36,
      "change_pct": 0.35,
      "upside_pct": 1.55
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 411.23,
+     "low": 411.16,
      "mid": 411.93,
-     "high": 419.39,
+     "high": 419.42,
      "change_pct": 0.47,
-     "upside_pct": 2.29
+     "upside_pct": 2.3
     }
    ]
   },
@@ -2504,43 +2504,43 @@
    "category": "edible_oil",
    "unit": "5 L bottle",
    "last_price": 1000.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 1000.6,
+     "low": 1000.61,
      "mid": 1002.54,
      "high": 1009.96,
      "change_pct": 0.25,
      "upside_pct": 1.0
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
      "low": 1000.27,
      "mid": 1002.54,
-     "high": 1011.98,
+     "high": 1016.84,
      "change_pct": 0.25,
-     "upside_pct": 1.2
+     "upside_pct": 1.68
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 1002.21,
+     "low": 1002.23,
      "mid": 1007.67,
      "high": 1037.41,
      "change_pct": 0.77,
      "upside_pct": 3.74
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 1002.21,
+     "low": 1002.05,
      "mid": 1007.67,
-     "high": 1038.98,
+     "high": 1038.81,
      "change_pct": 0.77,
-     "upside_pct": 3.9
+     "upside_pct": 3.88
     }
    ]
   },
@@ -2550,44 +2550,44 @@
    "name_bn": "সয়াবিন তেল (লুজ)",
    "category": "edible_oil",
    "unit": "litre",
-   "last_price": 192.5,
-   "last_seen": "2026-11-16",
+   "last_price": 193.0,
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 191.18,
-     "mid": 192.52,
-     "high": 195.61,
+     "low": 191.76,
+     "mid": 193.02,
+     "high": 194.88,
      "change_pct": 0.01,
-     "upside_pct": 1.62
+     "upside_pct": 0.97
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 190.1,
-     "mid": 192.65,
-     "high": 196.68,
+     "low": 190.72,
+     "mid": 193.15,
+     "high": 195.15,
      "change_pct": 0.08,
-     "upside_pct": 2.17
+     "upside_pct": 1.11
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 189.51,
-     "mid": 192.65,
-     "high": 197.46,
+     "low": 190.49,
+     "mid": 193.15,
+     "high": 196.46,
      "change_pct": 0.08,
-     "upside_pct": 2.58
+     "upside_pct": 1.79
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 189.41,
-     "mid": 192.65,
-     "high": 197.97,
+     "low": 190.34,
+     "mid": 193.15,
+     "high": 197.27,
      "change_pct": 0.08,
-     "upside_pct": 2.84
+     "upside_pct": 2.21
     }
    ]
   },
@@ -2598,10 +2598,10 @@
    "category": "groceries",
    "unit": "kg",
    "last_price": 112.5,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 110.56,
      "mid": 112.5,
@@ -2610,16 +2610,16 @@
      "upside_pct": 0.57
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 109.56,
+     "low": 109.53,
      "mid": 112.5,
-     "high": 113.7,
+     "high": 113.38,
      "change_pct": 0.0,
-     "upside_pct": 1.07
+     "upside_pct": 0.78
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 108.83,
      "mid": 112.5,
@@ -2628,13 +2628,13 @@
      "upside_pct": 1.32
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 108.67,
      "mid": 112.5,
-     "high": 114.34,
+     "high": 114.25,
      "change_pct": 0.0,
-     "upside_pct": 1.64
+     "upside_pct": 1.56
     }
    ]
   },
@@ -2645,43 +2645,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 325.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 320.05,
+     "low": 319.66,
      "mid": 325.0,
-     "high": 327.84,
+     "high": 327.86,
      "change_pct": 0.0,
-     "upside_pct": 0.87
+     "upside_pct": 0.88
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 317.76,
+     "low": 317.38,
      "mid": 325.0,
-     "high": 329.81,
+     "high": 330.26,
      "change_pct": 0.0,
-     "upside_pct": 1.48
+     "upside_pct": 1.62
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 315.79,
+     "low": 315.46,
      "mid": 325.0,
-     "high": 332.35,
+     "high": 332.71,
      "change_pct": 0.0,
-     "upside_pct": 2.26
+     "upside_pct": 2.37
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 315.68,
+     "low": 315.25,
      "mid": 325.0,
-     "high": 334.01,
+     "high": 334.14,
      "change_pct": 0.0,
-     "upside_pct": 2.77
+     "upside_pct": 2.81
     }
    ]
   },
@@ -2692,43 +2692,43 @@
    "category": "spices",
    "unit": "kg",
    "last_price": 335.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
-     "low": 328.31,
+     "low": 327.91,
      "mid": 335.0,
-     "high": 335.07,
+     "high": 335.0,
      "change_pct": 0.0,
-     "upside_pct": 0.02
+     "upside_pct": 0.0
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 325.68,
+     "low": 325.21,
      "mid": 335.0,
-     "high": 337.01,
+     "high": 337.22,
      "change_pct": 0.0,
-     "upside_pct": 0.6
+     "upside_pct": 0.66
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
-     "low": 321.99,
+     "low": 321.6,
      "mid": 335.0,
-     "high": 339.07,
+     "high": 339.35,
      "change_pct": 0.0,
-     "upside_pct": 1.21
+     "upside_pct": 1.3
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
-     "low": 319.8,
+     "low": 319.36,
      "mid": 335.0,
-     "high": 340.32,
+     "high": 340.54,
      "change_pct": 0.0,
-     "upside_pct": 1.59
+     "upside_pct": 1.65
     }
    ]
   },
@@ -2739,10 +2739,10 @@
    "category": "stationery",
    "unit": "dista (24 sheets)",
    "last_price": 37.0,
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "forecast": [
     {
-     "date": "2026-11-23",
+     "date": "2026-11-24",
      "weeks": 1,
      "low": 37.0,
      "mid": 37.0,
@@ -2751,16 +2751,16 @@
      "upside_pct": 0.08
     },
     {
-     "date": "2026-11-30",
+     "date": "2026-12-01",
      "weeks": 2,
-     "low": 37.0,
+     "low": 36.96,
      "mid": 37.0,
-     "high": 37.01,
+     "high": 37.0,
      "change_pct": 0.0,
-     "upside_pct": 0.03
+     "upside_pct": 0.0
     },
     {
-     "date": "2026-12-07",
+     "date": "2026-12-08",
      "weeks": 3,
      "low": 36.98,
      "mid": 37.0,
@@ -2769,7 +2769,7 @@
      "upside_pct": 0.05
     },
     {
-     "date": "2026-12-14",
+     "date": "2026-12-15",
      "weeks": 4,
      "low": 36.98,
      "mid": 37.0,
