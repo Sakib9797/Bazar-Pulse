@@ -1,8 +1,8 @@
 {
-  "champion_version": 6,
+  "champion_version": 7,
   "model": "qlgbm_smooth",
-  "backtest_pinball": 2.0983,
-  "backtest_coverage": 0.902,
+  "backtest_pinball": 2.1162,
+  "backtest_coverage": 0.908,
   "live_rows": 0,
   "status": "warming_up"
 }
